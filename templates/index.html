@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2026 NBA Mock Draft — Rounds 1-2</title>
+  <meta name="description" content="Analytics-driven predictions for the 2026 NBA Draft, covering all 60 picks in rounds 1 and 2." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/css/style.css?v=2" />
+  <link id="favicon" rel="icon" type="image/png" href="https://a.espncdn.com/i/teamlogos/leagues/500/nba.png" />
+</head>
+<body>
+
+<!-- =========================================================
+     HEADER
+     ========================================================= -->
+<header class="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <div class="header-logo">
+        <img
+          src="https://a.espncdn.com/i/teamlogos/leagues/500/nba.png"
+          alt="NBA"
+          class="nba-logo"
+          onerror="this.style.display='none'"
+        />
+        <div>
+          <h1 class="site-title">2026 NBA <span>Mock Draft</span></h1>
+          <p class="header-meta">Rounds 1 – 2 &nbsp;·&nbsp; {{ total_picks }} Picks &nbsp;·&nbsp; Brooklyn, NY &nbsp;·&nbsp; Jun 25–26</p>
+        </div>
+      </div>
+      <div class="predictions-control">
+        {% if last_updated %}
+        <span class="predictions-timestamp" id="predictions-timestamp">
+          Updated {{ last_updated }}
+        </span>
+        {% endif %}
+        <button
+          class="predictions-btn"
+          id="predictions-btn"
+          onclick="runPredictions()"
+          title="Run the prediction engine using the latest scouting data"
+        >
+          <span class="predictions-btn-icon" id="predictions-btn-icon">⟳</span>
+          <span id="predictions-btn-label">
+            {% if assigned_picks > 0 %}Refresh Predictions{% else %}Run Predictions{% endif %}
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Round Tabs + All Rounds + Position Filters -->
+    <div class="round-tabs">
+      {% for round_num, picks in rounds.items() %}
+      <button class="round-tab" data-round="{{ round_num }}">
+        {% if round_num == 1 %}Round 1 — Lottery{% else %}Round 2{% endif %}
+        <span class="pick-count">{{ picks | length }}</span>
+      </button>
+      {% endfor %}
+      <button class="round-tab" id="all-rounds-tab">
+        All
+        <span class="pick-count">{{ total_picks }}</span>
+      </button>
+      <div class="tab-bar-sep" aria-hidden="true"></div>
+      <div class="position-filters" id="position-filters" aria-label="Filter by position"></div>
+    </div>
+  </div>
+</header>
+
+<!-- =========================================================
+     MAIN CONTENT
+     ========================================================= -->
+<main>
+  <div class="container">
+
+    {% for round_num, picks in rounds.items() %}
+    <div class="round-panel" data-round="{{ round_num }}">
+
+      <div class="draft-table-wrapper">
+        <table class="draft-table" aria-label="Round {{ round_num }} Draft Picks">
+          <thead>
+            <tr>
+              <th style="width:64px;">#</th>
+              <th>Team</th>
+              <th>Player</th>
+              <th>Position / School</th>
+              <th>Bio</th>
+              <th class="center" style="width:60px;">Grade</th>
+              <th class="center" style="width:40px;"></th>
+            </tr>
+          </thead>
+          <tbody>
+
+            {% for ep in picks %}
+            {% set pick = ep.pick %}
+            {% set team = ep.team %}
+            {% set player = ep.player %}
+
+            {# ----- Main pick row ----- #}
+            <tr
+              class="pick-row{% if pick.is_lottery %} lottery-pick{% endif %}"
+              id="pick-{{ pick.pick_number }}"
+              data-pick-number="{{ pick.pick_number }}"
+              data-position="{{ player.position if player else '' }}"
+              aria-expanded="false"
+            >
+
+              {# Pick number #}
+              <td>
+                <div class="pick-num">
+                  <span>{{ pick.pick_number }}</span>
+                  <span class="round-pick">R{{ pick.round }}P{{ pick.pick_in_round }}</span>
+                </div>
+              </td>
+
+              {# Team logos + name #}
+              <td>
+                <div class="team-cell">
+                  <div class="logo-stack">
+                    <img
+                      src="{{ team.logo_url }}"
+                      alt="{{ team.name }}"
+                      class="team-logo-main"
+                      title="{{ team.name }}"
+                      onerror="onLogoError(this, '{{ team.abbreviation }}')"
+                    />
+                    {% if ep.traded_from_teams %}
+                    <div class="traded-from-logos" title="Pick traded from: {% for t in ep.traded_from_teams %}{{ t.name }}{% if not loop.last %} → {% endif %}{% endfor %}">
+                      {% for traded_team in ep.traded_from_teams %}
+                      <img
+                        src="{{ traded_team.logo_url }}"
+                        alt="{{ traded_team.name }}"
+                        class="team-logo-traded"
+                        title="{{ traded_team.name }}"
+                        onerror="onLogoError(this, '{{ traded_team.abbreviation }}')"
+                      />
+                      {% endfor %}
+                      <span class="team-trade-badge">VIA</span>
+                    </div>
+                    {% endif %}
+                  </div>
+
+                  <div class="team-info">
+                    {% if ep.traded_from_teams %}
+                    <div class="trade-info">
+                      <span class="team-name">{{ team.nickname }}</span>
+                      <div class="tooltip">
+                        {% if pick.trade_notes %}
+                          {{ pick.trade_notes }}
+                        {% else %}
+                          Pick acquired from: {% for t in ep.traded_from_teams %}{{ t.name }}{% if not loop.last %} → {% endif %}{% endfor %}
+                        {% endif %}
+                      </div>
+                    </div>
+                    <span class="team-city">{{ team.city }}</span>
+                    {% else %}
+                    <span class="team-name">{{ team.nickname }}</span>
+                    <span class="team-city">{{ team.city }}</span>
+                    {% endif %}
+
+                    {% if pick.is_lottery %}
+                    <span class="lottery-badge">LOTTERY</span>
+                    {% endif %}
+                  </div>
+                </div>
+              </td>
+
+              {# Player name / TBD #}
+              <td class="player-cell">
+                {% if player %}
+                  <div class="player-name">{{ player.name }}</div>
+                  <span class="player-position-badge">{{ player.position }}</span>
+                {% else %}
+                  <span class="player-tbd">— TBD —</span>
+                {% endif %}
+              </td>
+
+              {# School / League cell #}
+              <td>
+                <div class="college-cell">
+                  {% if player %}
+                    {% set clogo = college_logos.get(player.college) %}
+                    {% if clogo %}
+                    <img
+                      src="{{ clogo }}"
+                      alt="{{ player.college }}"
+                      class="college-logo"
+                      title="{{ player.college }}"
+                      onerror="this.style.display='none'"
+                    />
+                    {% endif %}
+                    <div class="college-info">
+                      <div class="college-name">{{ player.college }}</div>
+                      <div class="position-label">{{ player.position }}</div>
+                    </div>
+                  {% else %}
+                    <span style="color:var(--text-muted);font-style:italic;font-size:0.8rem;">—</span>
+                  {% endif %}
+                </div>
+              </td>
+
+              {# Quick bio stats #}
+              <td class="bio-cell">
+                {% if player and player.bio %}
+                  {% set bio = player.bio %}
+                  {% if bio.height_inches %}
+                  <div class="bio-stat">
+                    <span class="bio-label">HT</span>
+                    <span class="bio-value height-display" data-inches="{{ bio.height_inches }}">
+                      {{ (bio.height_inches // 12) }}'{{ (bio.height_inches % 12) }}"
+                    </span>
+                  </div>
+                  {% endif %}
+                  {% if bio.weight_lbs %}
+                  <div class="bio-stat">
+                    <span class="bio-label">WT</span>
+                    <span class="bio-value">{{ bio.weight_lbs }} lbs</span>
+                  </div>
+                  {% endif %}
+                  {% if bio.age %}
+                  <div class="bio-stat">
+                    <span class="bio-label">AGE</span>
+                    <span class="bio-value">{{ bio.age }}</span>
+                  </div>
+                  {% endif %}
+                {% else %}
+                  <span style="color:var(--text-muted);">—</span>
+                {% endif %}
+              </td>
+
+              {# Scouting grade #}
+              <td class="grade-cell">
+                {% if player and player.grade is not none %}
+                  {% set g = player.grade %}
+                  {% set is_derived = player.grade_breakdown and player.grade_breakdown.grade_source != "ESPN Scouting Grade" %}
+                  {% if g >= 8.5 %}
+                    <span class="grade-value grade-a" title="{{ player.grade_breakdown.grade_source if player.grade_breakdown else 'Grade' }}">{{ "%.1f"|format(g) }}</span>
+                  {% elif g >= 7.5 %}
+                    <span class="grade-value grade-b" title="{{ player.grade_breakdown.grade_source if player.grade_breakdown else 'Grade' }}">{{ "%.1f"|format(g) }}</span>
+                  {% elif g >= 6.5 %}
+                    <span class="grade-value grade-c" title="{{ player.grade_breakdown.grade_source if player.grade_breakdown else 'Grade' }}">{{ "%.1f"|format(g) }}</span>
+                  {% else %}
+                    <span class="grade-value grade-d" title="{{ player.grade_breakdown.grade_source if player.grade_breakdown else 'Grade' }}">{{ "%.1f"|format(g) }}</span>
+                  {% endif %}
+                  {% if is_derived %}
+                    <span class="grade-derived-label">model</span>
+                  {% endif %}
+                {% else %}
+                  <span class="grade-value grade-none">—</span>
+                {% endif %}
+              </td>
+
+              {# Expand toggle + NEW badge #}
+              <td class="center">
+                <span class="new-badge" id="new-badge-{{ pick.pick_number }}">NEW</span>
+                <span class="expand-icon">▶</span>
+              </td>
+
+            </tr>{# end pick-row #}
+
+            {# ----- Detail row (hidden until expanded) ----- #}
+            <tr class="detail-row" id="detail-{{ pick.pick_number }}">
+              <td colspan="7">
+                <div class="detail-panel">
+                  <div class="detail-grid">
+
+                    {# --- Column 1: Full Bio --- #}
+                    <div class="detail-section">
+                      <div class="detail-section-title">Biographical Info</div>
+                      {% if player and player.bio %}
+                        {% set bio = player.bio %}
+                        <div class="bio-detail-grid">
+                          <div class="bio-detail-item">
+                            <span class="bio-detail-label">Height</span>
+                            <span class="bio-detail-value">
+                              {% if bio.height_inches %}{{ (bio.height_inches // 12) }}'{{ (bio.height_inches % 12) }}"{% else %}—{% endif %}
+                            </span>
+                          </div>
+                          <div class="bio-detail-item">
+                            <span class="bio-detail-label">Weight</span>
+                            <span class="bio-detail-value">
+                              {% if bio.weight_lbs %}{{ bio.weight_lbs }} lbs{% else %}—{% endif %}
+                            </span>
+                          </div>
+                          <div class="bio-detail-item">
+                            <span class="bio-detail-label">Age</span>
+                            <span class="bio-detail-value">{% if bio.age %}{{ bio.age }}{% else %}—{% endif %}</span>
+                          </div>
+                          <div class="bio-detail-item">
+                            <span class="bio-detail-label">Hometown</span>
+                            <span class="bio-detail-value">{% if bio.hometown %}{{ bio.hometown }}{% else %}—{% endif %}</span>
+                          </div>
+                          <div class="bio-detail-item">
+                            <span class="bio-detail-label">Wingspan</span>
+                            <span class="bio-detail-value">
+                              {% if bio.wingspan_inches %}{{ bio.wingspan_inches }}"{% else %}—{% endif %}
+                            </span>
+                          </div>
+                          <div class="bio-detail-item">
+                            <span class="bio-detail-label">Standing Reach</span>
+                            <span class="bio-detail-value">
+                              {% if bio.standing_reach_inches %}{{ bio.standing_reach_inches }}"{% else %}—{% endif %}
+                            </span>
+                          </div>
+                          <div class="bio-detail-item">
+                            <span class="bio-detail-label">Vertical (Standing)</span>
+                            <span class="bio-detail-value">
+                              {% if bio.vertical_jump_inches %}{{ bio.vertical_jump_inches }}"{% else %}—{% endif %}
+                            </span>
+                          </div>
+                          <div class="bio-detail-item">
+                            <span class="bio-detail-label">Vertical (Max)</span>
+                            <span class="bio-detail-value">
+                              {% if bio.max_vertical_inches %}{{ bio.max_vertical_inches }}"{% else %}—{% endif %}
+                            </span>
+                          </div>
+                          <div class="bio-detail-item">
+                            <span class="bio-detail-label">Lane Agility</span>
+                            <span class="bio-detail-value">
+                              {% if bio.lane_agility_seconds %}{{ bio.lane_agility_seconds }}s{% else %}—{% endif %}
+                            </span>
+                          </div>
+                          <div class="bio-detail-item">
+                            <span class="bio-detail-label">¾ Sprint</span>
+                            <span class="bio-detail-value">
+                              {% if bio.sprint_seconds %}{{ bio.sprint_seconds }}s{% else %}—{% endif %}
+                            </span>
+                          </div>
+                          {% if player.notes %}
+                          <div class="bio-detail-item" style="grid-column:1/-1">
+                            <span class="bio-detail-label">Analyst Notes</span>
+                            <span class="bio-detail-value" style="font-size:0.8rem;font-weight:400;color:var(--text-secondary);">
+                              {{ player.notes }}
+                            </span>
+                          </div>
+                          {% endif %}
+                        </div>
+
+                        {# Grade Analysis breakdown #}
+                        {% if player.grade_breakdown %}
+                        <div class="grade-analysis-box">
+                          <div class="grade-analysis-header">
+                            <span class="grade-analysis-title">Grade Analysis</span>
+                            <span class="grade-source-pill">{{ player.grade_breakdown.grade_source }}</span>
+                          </div>
+                          <div class="grade-analysis-formula">
+                            Formula: {{ player.grade_breakdown.formula }}
+                          </div>
+                          <div class="grade-components-grid">
+                            {% for label, val in player.grade_breakdown.components.items() %}
+                            <div class="grade-component-row">
+                              <span class="grade-comp-label">{{ label }}</span>
+                              <span class="grade-comp-value">{{ val }}</span>
+                            </div>
+                            {% endfor %}
+                            <div class="grade-component-row grade-base-score-row">
+                              <span class="grade-comp-label">Model Score</span>
+                              <span class="grade-comp-value">{{ player.grade_breakdown.base_score }}/100</span>
+                            </div>
+                          </div>
+                        </div>
+                        {% endif %}
+
+                      {% else %}
+                        <p class="no-stats">Player not yet assigned to this pick.</p>
+                      {% endif %}
+                    </div>
+
+                    {# --- Column 2: Stats --- #}
+                    <div class="detail-section">
+                      <div class="detail-section-title">Statistics</div>
+                      {% if player and player.stat_views %}
+                        <div class="stats-tabs">
+                          {% for sv in player.stat_views %}
+                          <button
+                            class="stats-tab{% if loop.first %} active{% endif %}"
+                            data-view="{{ sv.view_name }}"
+                            onclick="activateStatsTab(this, '{{ pick.pick_number }}', '{{ sv.view_name }}')"
+                          >
+                            {{ sv.view_name }}
+                          </button>
+                          {% endfor %}
+                        </div>
+                        {% for sv in player.stat_views %}
+                        <div
+                          class="stats-view{% if loop.first %} active{% endif %}"
+                          data-view="{{ sv.view_name }}"
+                        >
+                          <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:0.5rem;">
+                            Season: {{ sv.season }}
+                          </div>
+                          <div class="stats-grid">
+                            {% for key, val in sv.stats.items() %}
+                            <div class="stat-item">
+                              <div class="stat-label">{{ key }}</div>
+                              <div class="stat-value">{{ val }}</div>
+                            </div>
+                            {% endfor %}
+                          </div>
+                        </div>
+                        {% endfor %}
+                      {% else %}
+                        <p class="no-stats">No statistical data available yet.</p>
+                      {% endif %}
+
+                      {# Injury History #}
+                      <div style="margin-top:1rem;">
+                        <div class="detail-section-title" style="margin-bottom:0.5rem;">Injury History</div>
+                        {% if player and player.injury_history %}
+                          <button class="injury-toggle" onclick="toggleInjuryList(this)">
+                            <span class="toggle-arrow">▸</span>
+                            {{ player.injury_history | length }} recorded injur{% if player.injury_history | length != 1 %}ies{% else %}y{% endif %}
+                          </button>
+                          <div class="injury-list">
+                            {% for inj in player.injury_history %}
+                            <div class="injury-item">
+                              <div>
+                                <div class="injury-type">{{ inj.injury_type }}</div>
+                                {% if inj.details %}
+                                <div style="font-size:0.7rem;color:var(--text-muted);">{{ inj.details }}</div>
+                                {% endif %}
+                              </div>
+                              <div style="text-align:right;flex-shrink:0;">
+                                <div class="injury-year">{{ inj.year }}</div>
+                                {% if inj.games_missed is not none %}
+                                <div class="injury-games">{{ inj.games_missed }} gms missed</div>
+                                {% endif %}
+                              </div>
+                            </div>
+                            {% endfor %}
+                          </div>
+                        {% elif player %}
+                          <p class="no-injury">No significant injury history.</p>
+                        {% else %}
+                          <p class="no-stats">—</p>
+                        {% endif %}
+                      </div>
+                    </div>
+
+                    {# --- Column 3: Media Links --- #}
+                    <div class="detail-section">
+                      <div class="detail-section-title">Media &amp; Coverage</div>
+                      {% if player and player.media_links %}
+                        {% set type_icons = {
+                          'news': '📰',
+                          'twitter': '🐦',
+                          'instagram': '📸',
+                          'mock_draft': '📋',
+                          'video': '🎥'
+                        } %}
+                        <div class="media-links-grid">
+                          {% for link in player.media_links %}
+                          <a
+                            href="{{ link.url }}"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="media-link"
+                            data-fetched-at="{{ link.fetched_at or '' }}"
+                            onclick="event.stopPropagation()"
+                          >
+                            <span class="new-item-badge new-badge">NEW</span>
+                            <span class="media-icon">{{ type_icons.get(link.source_type, '🔗') }}</span>
+                            <div>
+                              <div class="media-title">{{ link.title }}</div>
+                              <div class="media-source">
+                                {{ link.source_name }}
+                                {% if link.published_at %} · {{ link.published_at }}{% endif %}
+                              </div>
+                            </div>
+                          </a>
+                          {% endfor %}
+                        </div>
+                      {% else %}
+                        <p class="no-media">No media links available yet.</p>
+                      {% endif %}
+                    </div>
+
+                  </div>{# end detail-grid #}
+
+                  {# --- Team Needs section (full width) --- #}
+                  {% if pick.team_needs_snapshot and pick.team_needs_snapshot.needs_ranked %}
+                  <div class="team-needs-section">
+                    <div class="detail-section-title">
+                      {{ team.nickname }} — Team Needs (Pre-Pick)
+                    </div>
+                    <div class="team-needs-grid">
+                      {% set prior_picks_for_team = pick_team_histories.get(pick.pick_number, {}) %}
+                      {% for need in pick.team_needs_snapshot.needs_ranked %}
+                      {% set filled_player = prior_picks_for_team.get(need.position) %}
+                      <div class="team-need-item need-level-{{ need.need_level }}{% if filled_player %} need-filled{% endif %}">
+                        <span class="need-rank">#{{ loop.index }}</span>
+                        <span class="need-position">{{ need.position }}</span>
+                        <div class="need-status">
+                          {% if filled_player %}
+                            <span class="need-filled-label">FILLED</span>
+                            <span class="need-filled-player">{{ filled_player }}</span>
+                          {% else %}
+                            <span class="need-pips">
+                              {% for i in range(5) %}
+                              <span class="need-pip{% if i < need.need_level %} active{% endif %}"></span>
+                              {% endfor %}
+                            </span>
+                            <span class="need-level-label">{{ need.need_level }}/5</span>
+                          {% endif %}
+                        </div>
+                      </div>
+                      {% endfor %}
+                    </div>
+                  </div>
+                  {% endif %}
+
+                  {# --- Tweets / Social Buzz --- #}
+                  {% if player and player.tweets %}
+                  <div class="tweets-section">
+                    <div class="detail-section-title">Social Buzz</div>
+                    <div class="tweets-grid">
+                      {% for tweet in player.tweets %}
+                      <a
+                        href="{{ tweet.url }}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="tweet-card"
+                        data-fetched-at="{{ tweet.fetched_at or '' }}"
+                        onclick="event.stopPropagation()"
+                      >
+                        <span class="new-item-badge new-badge">NEW</span>
+                        <div class="tweet-account">{{ tweet.source_name }}</div>
+                        <div class="tweet-text">{{ tweet.title }}</div>
+                        {% if tweet.published_at %}
+                        <div class="tweet-meta">{{ tweet.published_at }}</div>
+                        {% endif %}
+                      </a>
+                      {% endfor %}
+                    </div>
+                  </div>
+                  {% endif %}
+
+                </div>{# end detail-panel #}
+              </td>
+            </tr>{# end detail-row #}
+
+            {% endfor %}{# end picks loop #}
+
+          </tbody>
+        </table>
+      </div>{# end draft-table-wrapper #}
+
+    </div>{# end round-panel #}
+    {% endfor %}{# end rounds loop #}
+
+  </div>{# end container #}
+</main>
+
+<!-- =========================================================
+     FOOTER
+     ========================================================= -->
+<footer class="site-footer">
+  <div class="container">
+    <p>
+      2026 NBA Mock Draft &nbsp;·&nbsp;
+      Predictions powered by prospect grades from
+      <a href="https://www.espn.com/nba/draft" target="_blank" rel="noopener">ESPN</a>
+      &amp; <a href="https://www.nba.com/draft/2026" target="_blank" rel="noopener">NBA.com</a>
+      &nbsp;·&nbsp; Analytics engine v1
+    </p>
+  </div>
+</footer>
+
+<script src="/static/js/app.js"></script>
+<script>
+(function () {
+  // Rotating favicon: NBA logo + all 30 team logos
+  var logos = [
+    "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/cle.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/det.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/gsw.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/hou.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/lac.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/lal.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/mia.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/min.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/nop.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/nyk.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/sac.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/sas.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/tor.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/uta.png",
+    "https://a.espncdn.com/i/teamlogos/nba/500/was.png"
+  ];
+
+  var favicon = document.getElementById("favicon");
+  var canvas = document.createElement("canvas");
+  canvas.width = 32;
+  canvas.height = 32;
+  var ctx = canvas.getContext("2d");
+
+  var images = logos.map(function (src) {
+    var img = new Image();
+    img.crossOrigin = "anonymous";
+    img.src = src;
+    return img;
+  });
+
+  var index = 0;
+
+  function rotateFavicon() {
+    var img = images[index];
+    index = (index + 1) % images.length;
+
+    if (!img.complete || img.naturalWidth === 0) return;
+
+    ctx.clearRect(0, 0, 32, 32);
+    ctx.drawImage(img, 0, 0, 32, 32);
+
+    try {
+      favicon.href = canvas.toDataURL("image/png");
+    } catch (e) {
+      favicon.href = logos[(index - 1 + logos.length) % logos.length];
+    }
+  }
+
+  window.addEventListener("load", function () {
+    setTimeout(function () {
+      rotateFavicon();
+      setInterval(rotateFavicon, 800);
+    }, 500);
+  });
+})();
+</script>
+</body>
+</html>

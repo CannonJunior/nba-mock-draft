@@ -1,0 +1,274 @@
+{
+  "teams": [
+    {
+      "abbreviation": "atl",
+      "name": "Atlanta Hawks",
+      "city": "Atlanta",
+      "nickname": "Hawks",
+      "primary_color": "#e03a3e",
+      "secondary_color": "#c1d32f",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png"
+    },
+    {
+      "abbreviation": "bos",
+      "name": "Boston Celtics",
+      "city": "Boston",
+      "nickname": "Celtics",
+      "primary_color": "#007a33",
+      "secondary_color": "#ba9653",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
+    },
+    {
+      "abbreviation": "bkn",
+      "name": "Brooklyn Nets",
+      "city": "Brooklyn",
+      "nickname": "Nets",
+      "primary_color": "#000000",
+      "secondary_color": "#ffffff",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png"
+    },
+    {
+      "abbreviation": "cha",
+      "name": "Charlotte Hornets",
+      "city": "Charlotte",
+      "nickname": "Hornets",
+      "primary_color": "#1d1160",
+      "secondary_color": "#00788c",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png"
+    },
+    {
+      "abbreviation": "chi",
+      "name": "Chicago Bulls",
+      "city": "Chicago",
+      "nickname": "Bulls",
+      "primary_color": "#ce1141",
+      "secondary_color": "#000000",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png"
+    },
+    {
+      "abbreviation": "cle",
+      "name": "Cleveland Cavaliers",
+      "city": "Cleveland",
+      "nickname": "Cavaliers",
+      "primary_color": "#860038",
+      "secondary_color": "#fdbb30",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png"
+    },
+    {
+      "abbreviation": "dal",
+      "name": "Dallas Mavericks",
+      "city": "Dallas",
+      "nickname": "Mavericks",
+      "primary_color": "#00538c",
+      "secondary_color": "#002f6c",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/dal.png"
+    },
+    {
+      "abbreviation": "den",
+      "name": "Denver Nuggets",
+      "city": "Denver",
+      "nickname": "Nuggets",
+      "primary_color": "#0e2240",
+      "secondary_color": "#fec524",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
+    },
+    {
+      "abbreviation": "det",
+      "name": "Detroit Pistons",
+      "city": "Detroit",
+      "nickname": "Pistons",
+      "primary_color": "#c8102e",
+      "secondary_color": "#1d42ba",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/det.png"
+    },
+    {
+      "abbreviation": "gsw",
+      "name": "Golden State Warriors",
+      "city": "San Francisco",
+      "nickname": "Warriors",
+      "primary_color": "#1d428a",
+      "secondary_color": "#ffc72c",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/gsw.png"
+    },
+    {
+      "abbreviation": "hou",
+      "name": "Houston Rockets",
+      "city": "Houston",
+      "nickname": "Rockets",
+      "primary_color": "#ce1141",
+      "secondary_color": "#000000",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png"
+    },
+    {
+      "abbreviation": "ind",
+      "name": "Indiana Pacers",
+      "city": "Indianapolis",
+      "nickname": "Pacers",
+      "primary_color": "#002d62",
+      "secondary_color": "#fdbb30",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png"
+    },
+    {
+      "abbreviation": "lac",
+      "name": "LA Clippers",
+      "city": "Los Angeles",
+      "nickname": "Clippers",
+      "primary_color": "#c8102e",
+      "secondary_color": "#1d428a",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/lac.png"
+    },
+    {
+      "abbreviation": "lal",
+      "name": "Los Angeles Lakers",
+      "city": "Los Angeles",
+      "nickname": "Lakers",
+      "primary_color": "#552583",
+      "secondary_color": "#fdb927",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/lal.png"
+    },
+    {
+      "abbreviation": "mem",
+      "name": "Memphis Grizzlies",
+      "city": "Memphis",
+      "nickname": "Grizzlies",
+      "primary_color": "#5d76a9",
+      "secondary_color": "#12173f",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/mem.png"
+    },
+    {
+      "abbreviation": "mia",
+      "name": "Miami Heat",
+      "city": "Miami",
+      "nickname": "Heat",
+      "primary_color": "#98002e",
+      "secondary_color": "#f9a01b",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/mia.png"
+    },
+    {
+      "abbreviation": "mil",
+      "name": "Milwaukee Bucks",
+      "city": "Milwaukee",
+      "nickname": "Bucks",
+      "primary_color": "#00471b",
+      "secondary_color": "#eee1c6",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png"
+    },
+    {
+      "abbreviation": "min",
+      "name": "Minnesota Timberwolves",
+      "city": "Minneapolis",
+      "nickname": "Timberwolves",
+      "primary_color": "#0c2340",
+      "secondary_color": "#236192",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/min.png"
+    },
+    {
+      "abbreviation": "nop",
+      "name": "New Orleans Pelicans",
+      "city": "New Orleans",
+      "nickname": "Pelicans",
+      "primary_color": "#0c2340",
+      "secondary_color": "#c8102e",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/no.png"
+    },
+    {
+      "abbreviation": "nyk",
+      "name": "New York Knicks",
+      "city": "New York",
+      "nickname": "Knicks",
+      "primary_color": "#006bb6",
+      "secondary_color": "#f58426",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/nyk.png"
+    },
+    {
+      "abbreviation": "okc",
+      "name": "Oklahoma City Thunder",
+      "city": "Oklahoma City",
+      "nickname": "Thunder",
+      "primary_color": "#007ac1",
+      "secondary_color": "#ef3b24",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png"
+    },
+    {
+      "abbreviation": "orl",
+      "name": "Orlando Magic",
+      "city": "Orlando",
+      "nickname": "Magic",
+      "primary_color": "#0077c0",
+      "secondary_color": "#c4ced4",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png"
+    },
+    {
+      "abbreviation": "phi",
+      "name": "Philadelphia 76ers",
+      "city": "Philadelphia",
+      "nickname": "76ers",
+      "primary_color": "#006bb6",
+      "secondary_color": "#ed174c",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png"
+    },
+    {
+      "abbreviation": "phx",
+      "name": "Phoenix Suns",
+      "city": "Phoenix",
+      "nickname": "Suns",
+      "primary_color": "#1d1160",
+      "secondary_color": "#e56020",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/phx.png"
+    },
+    {
+      "abbreviation": "por",
+      "name": "Portland Trail Blazers",
+      "city": "Portland",
+      "nickname": "Trail Blazers",
+      "primary_color": "#e03a3e",
+      "secondary_color": "#000000",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/por.png"
+    },
+    {
+      "abbreviation": "sac",
+      "name": "Sacramento Kings",
+      "city": "Sacramento",
+      "nickname": "Kings",
+      "primary_color": "#5a2d81",
+      "secondary_color": "#63727a",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/sac.png"
+    },
+    {
+      "abbreviation": "sas",
+      "name": "San Antonio Spurs",
+      "city": "San Antonio",
+      "nickname": "Spurs",
+      "primary_color": "#c4ced4",
+      "secondary_color": "#000000",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/sas.png"
+    },
+    {
+      "abbreviation": "tor",
+      "name": "Toronto Raptors",
+      "city": "Toronto",
+      "nickname": "Raptors",
+      "primary_color": "#ce1141",
+      "secondary_color": "#000000",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png"
+    },
+    {
+      "abbreviation": "uta",
+      "name": "Utah Jazz",
+      "city": "Salt Lake City",
+      "nickname": "Jazz",
+      "primary_color": "#002b5c",
+      "secondary_color": "#00471b",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png"
+    },
+    {
+      "abbreviation": "was",
+      "name": "Washington Wizards",
+      "city": "Washington",
+      "nickname": "Wizards",
+      "primary_color": "#002b5c",
+      "secondary_color": "#e31837",
+      "logo_url": "https://a.espncdn.com/i/teamlogos/nba/500/was.png"
+    }
+  ]
+}

@@ -1,0 +1,2298 @@
+{
+  "picks": [
+    {
+      "pick_number": 1,
+      "round": 1,
+      "pick_in_round": 1,
+      "current_team": "ind",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": true,
+      "player_id": "aj-dybantsa",
+      "team_needs_snapshot": {
+        "team": "ind",
+        "needs_ranked": [
+          {
+            "position": "SF",
+            "need_level": 4
+          },
+          {
+            "position": "C",
+            "need_level": 4
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "PG",
+            "need_level": 2
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 2,
+      "round": 1,
+      "pick_in_round": 2,
+      "current_team": "was",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": true,
+      "player_id": "darryn-peterson",
+      "team_needs_snapshot": {
+        "team": "was",
+        "needs_ranked": [
+          {
+            "position": "PG",
+            "need_level": 5
+          },
+          {
+            "position": "SG",
+            "need_level": 4
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 2
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 3,
+      "round": 1,
+      "pick_in_round": 3,
+      "current_team": "bkn",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": true,
+      "player_id": "cameron-boozer",
+      "team_needs_snapshot": {
+        "team": "bkn",
+        "needs_ranked": [
+          {
+            "position": "PG",
+            "need_level": 5
+          },
+          {
+            "position": "SG",
+            "need_level": 4
+          },
+          {
+            "position": "SF",
+            "need_level": 4
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 4,
+      "round": 1,
+      "pick_in_round": 4,
+      "current_team": "sac",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": true,
+      "player_id": "caleb-wilson",
+      "team_needs_snapshot": {
+        "team": "sac",
+        "needs_ranked": [
+          {
+            "position": "SF",
+            "need_level": 5
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          },
+          {
+            "position": "PG",
+            "need_level": 2
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 5,
+      "round": 1,
+      "pick_in_round": 5,
+      "current_team": "uta",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": true,
+      "player_id": "kingston-flemings",
+      "team_needs_snapshot": {
+        "team": "uta",
+        "needs_ranked": [
+          {
+            "position": "PG",
+            "need_level": 5
+          },
+          {
+            "position": "SF",
+            "need_level": 4
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 6,
+      "round": 1,
+      "pick_in_round": 6,
+      "current_team": "dal",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": true,
+      "player_id": "dailyn-swain",
+      "team_needs_snapshot": {
+        "team": "dal",
+        "needs_ranked": [
+          {
+            "position": "SF",
+            "need_level": 5
+          },
+          {
+            "position": "C",
+            "need_level": 4
+          },
+          {
+            "position": "PG",
+            "need_level": 3
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 7,
+      "round": 1,
+      "pick_in_round": 7,
+      "current_team": "atl",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": true,
+      "player_id": "mikel-brown-jr",
+      "team_needs_snapshot": {
+        "team": "atl",
+        "needs_ranked": [
+          {
+            "position": "PF",
+            "need_level": 5
+          },
+          {
+            "position": "SG",
+            "need_level": 4
+          },
+          {
+            "position": "PG",
+            "need_level": 3
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 8,
+      "round": 1,
+      "pick_in_round": 8,
+      "current_team": "mem",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": true,
+      "player_id": "keaton-wagler",
+      "team_needs_snapshot": {
+        "team": "mem",
+        "needs_ranked": [
+          {
+            "position": "PG",
+            "need_level": 4
+          },
+          {
+            "position": "SG",
+            "need_level": 4
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 9,
+      "round": 1,
+      "pick_in_round": 9,
+      "current_team": "chi",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": true,
+      "player_id": "bennett-stirtz",
+      "team_needs_snapshot": {
+        "team": "chi",
+        "needs_ranked": [
+          {
+            "position": "PG",
+            "need_level": 4
+          },
+          {
+            "position": "PF",
+            "need_level": 4
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 10,
+      "round": 1,
+      "pick_in_round": 10,
+      "current_team": "mil",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": true,
+      "player_id": "aday-mara",
+      "team_needs_snapshot": {
+        "team": "mil",
+        "needs_ranked": [
+          {
+            "position": "SG",
+            "need_level": 4
+          },
+          {
+            "position": "C",
+            "need_level": 4
+          },
+          {
+            "position": "PG",
+            "need_level": 3
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 11,
+      "round": 1,
+      "pick_in_round": 11,
+      "current_team": "por",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": true,
+      "player_id": "yaxel-lendeborg",
+      "team_needs_snapshot": {
+        "team": "por",
+        "needs_ranked": [
+          {
+            "position": "PF",
+            "need_level": 5
+          },
+          {
+            "position": "SG",
+            "need_level": 4
+          },
+          {
+            "position": "SF",
+            "need_level": 4
+          },
+          {
+            "position": "PG",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 2
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 12,
+      "round": 1,
+      "pick_in_round": 12,
+      "current_team": "gsw",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": true,
+      "player_id": "labaron-philon",
+      "team_needs_snapshot": {
+        "team": "gsw",
+        "needs_ranked": [
+          {
+            "position": "PG",
+            "need_level": 4
+          },
+          {
+            "position": "PF",
+            "need_level": 4
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 13,
+      "round": 1,
+      "pick_in_round": 13,
+      "current_team": "cha",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": true,
+      "player_id": "darius-acuff-jr",
+      "team_needs_snapshot": {
+        "team": "cha",
+        "needs_ranked": [
+          {
+            "position": "PG",
+            "need_level": 4
+          },
+          {
+            "position": "SG",
+            "need_level": 4
+          },
+          {
+            "position": "SF",
+            "need_level": 4
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 14,
+      "round": 1,
+      "pick_in_round": 14,
+      "current_team": "okc",
+      "traded_from": [
+        "phi"
+      ],
+      "trade_notes": "76ers pick acquired by Thunder; top-4 protected (conveys if outside top 4)",
+      "is_lottery": true,
+      "player_id": "koa-peat",
+      "team_needs_snapshot": {
+        "team": "okc",
+        "needs_ranked": [
+          {
+            "position": "SG",
+            "need_level": 4
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          },
+          {
+            "position": "PG",
+            "need_level": 2
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 15,
+      "round": 1,
+      "pick_in_round": 15,
+      "current_team": "okc",
+      "traded_from": [
+        "lac"
+      ],
+      "trade_notes": "Clippers pick to Thunder via Zubac trade; top-4 protected",
+      "is_lottery": false,
+      "player_id": "hannes-steinbach",
+      "team_needs_snapshot": {
+        "team": "okc",
+        "needs_ranked": [
+          {
+            "position": "SG",
+            "need_level": 4
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          },
+          {
+            "position": "PG",
+            "need_level": 2
+          },
+          {
+            "position": "PF",
+            "need_level": 1
+          }
+        ],
+        "picks_made": [
+          "PF"
+        ]
+      }
+    },
+    {
+      "pick_number": 16,
+      "round": 1,
+      "pick_in_round": 16,
+      "current_team": "sas",
+      "traded_from": [
+        "atl"
+      ],
+      "trade_notes": "Hawks pick acquired by Spurs via trade",
+      "is_lottery": false,
+      "player_id": "patrick-ngongba-ii",
+      "team_needs_snapshot": {
+        "team": "sas",
+        "needs_ranked": [
+          {
+            "position": "C",
+            "need_level": 5
+          },
+          {
+            "position": "PG",
+            "need_level": 4
+          },
+          {
+            "position": "SF",
+            "need_level": 4
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 17,
+      "round": 1,
+      "pick_in_round": 17,
+      "current_team": "mia",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": false,
+      "player_id": "jayden-quaintance",
+      "team_needs_snapshot": {
+        "team": "mia",
+        "needs_ranked": [
+          {
+            "position": "SF",
+            "need_level": 4
+          },
+          {
+            "position": "C",
+            "need_level": 4
+          },
+          {
+            "position": "PG",
+            "need_level": 3
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 18,
+      "round": 1,
+      "pick_in_round": 18,
+      "current_team": "mem",
+      "traded_from": [
+        "orl"
+      ],
+      "trade_notes": "Magic pick to Grizzlies via Desmond Bane deal",
+      "is_lottery": false,
+      "player_id": "joshua-jefferson",
+      "team_needs_snapshot": {
+        "team": "mem",
+        "needs_ranked": [
+          {
+            "position": "PG",
+            "need_level": 4
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          },
+          {
+            "position": "SG",
+            "need_level": 2
+          }
+        ],
+        "picks_made": [
+          "SG"
+        ]
+      }
+    },
+    {
+      "pick_number": 19,
+      "round": 1,
+      "pick_in_round": 19,
+      "current_team": "tor",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": false,
+      "player_id": "nate-ament",
+      "team_needs_snapshot": {
+        "team": "tor",
+        "needs_ranked": [
+          {
+            "position": "SF",
+            "need_level": 5
+          },
+          {
+            "position": "PG",
+            "need_level": 4
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 20,
+      "round": 1,
+      "pick_in_round": 20,
+      "current_team": "cha",
+      "traded_from": [
+        "phx"
+      ],
+      "trade_notes": "Suns pick to Hornets via trade",
+      "is_lottery": false,
+      "player_id": "tyler-tanner",
+      "team_needs_snapshot": {
+        "team": "cha",
+        "needs_ranked": [
+          {
+            "position": "SG",
+            "need_level": 4
+          },
+          {
+            "position": "SF",
+            "need_level": 4
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          },
+          {
+            "position": "PG",
+            "need_level": 2
+          }
+        ],
+        "picks_made": [
+          "PG"
+        ]
+      }
+    },
+    {
+      "pick_number": 21,
+      "round": 1,
+      "pick_in_round": 21,
+      "current_team": "den",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": false,
+      "player_id": "christian-anderson",
+      "team_needs_snapshot": {
+        "team": "den",
+        "needs_ranked": [
+          {
+            "position": "SF",
+            "need_level": 4
+          },
+          {
+            "position": "PG",
+            "need_level": 3
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 2
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 22,
+      "round": 1,
+      "pick_in_round": 22,
+      "current_team": "atl",
+      "traded_from": [
+        "cle"
+      ],
+      "trade_notes": "Cavaliers pick to Hawks via multi-team Derik Queen deal",
+      "is_lottery": false,
+      "player_id": "boogie-fland",
+      "team_needs_snapshot": {
+        "team": "atl",
+        "needs_ranked": [
+          {
+            "position": "PF",
+            "need_level": 5
+          },
+          {
+            "position": "PG",
+            "need_level": 3
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          },
+          {
+            "position": "SG",
+            "need_level": 2
+          }
+        ],
+        "picks_made": [
+          "SG"
+        ]
+      }
+    },
+    {
+      "pick_number": 23,
+      "round": 1,
+      "pick_in_round": 23,
+      "current_team": "det",
+      "traded_from": [
+        "min"
+      ],
+      "trade_notes": "Timberwolves pick to Pistons via trade",
+      "is_lottery": false,
+      "player_id": "karim-lopez",
+      "team_needs_snapshot": {
+        "team": "det",
+        "needs_ranked": [
+          {
+            "position": "SF",
+            "need_level": 5
+          },
+          {
+            "position": "PF",
+            "need_level": 4
+          },
+          {
+            "position": "PG",
+            "need_level": 3
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 2
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 24,
+      "round": 1,
+      "pick_in_round": 24,
+      "current_team": "phi",
+      "traded_from": [
+        "hou"
+      ],
+      "trade_notes": "Rockets pick to 76ers via trade",
+      "is_lottery": false,
+      "player_id": "thomas-haugh",
+      "team_needs_snapshot": {
+        "team": "phi",
+        "needs_ranked": [
+          {
+            "position": "SG",
+            "need_level": 4
+          },
+          {
+            "position": "SF",
+            "need_level": 4
+          },
+          {
+            "position": "PG",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 25,
+      "round": 1,
+      "pick_in_round": 25,
+      "current_team": "lal",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": false,
+      "player_id": "braylon-mullins",
+      "team_needs_snapshot": {
+        "team": "lal",
+        "needs_ranked": [
+          {
+            "position": "PG",
+            "need_level": 4
+          },
+          {
+            "position": "C",
+            "need_level": 4
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 26,
+      "round": 1,
+      "pick_in_round": 26,
+      "current_team": "nyk",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": false,
+      "player_id": "cameron-carr",
+      "team_needs_snapshot": {
+        "team": "nyk",
+        "needs_ranked": [
+          {
+            "position": "SF",
+            "need_level": 4
+          },
+          {
+            "position": "PF",
+            "need_level": 4
+          },
+          {
+            "position": "PG",
+            "need_level": 3
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 2
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 27,
+      "round": 1,
+      "pick_in_round": 27,
+      "current_team": "bos",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": false,
+      "player_id": "malachi-moreno",
+      "team_needs_snapshot": {
+        "team": "bos",
+        "needs_ranked": [
+          {
+            "position": "C",
+            "need_level": 4
+          },
+          {
+            "position": "PG",
+            "need_level": 3
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 28,
+      "round": 1,
+      "pick_in_round": 28,
+      "current_team": "min",
+      "traded_from": [
+        "det"
+      ],
+      "trade_notes": "Pistons pick to Timberwolves via trade (pick swap)",
+      "is_lottery": false,
+      "player_id": "brayden-burries",
+      "team_needs_snapshot": {
+        "team": "min",
+        "needs_ranked": [
+          {
+            "position": "SG",
+            "need_level": 4
+          },
+          {
+            "position": "PG",
+            "need_level": 3
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 29,
+      "round": 1,
+      "pick_in_round": 29,
+      "current_team": "cle",
+      "traded_from": [
+        "sas"
+      ],
+      "trade_notes": "Spurs pick to Cavaliers via trade",
+      "is_lottery": false,
+      "player_id": "morez-johnson-jr",
+      "team_needs_snapshot": {
+        "team": "cle",
+        "needs_ranked": [
+          {
+            "position": "SG",
+            "need_level": 4
+          },
+          {
+            "position": "PF",
+            "need_level": 4
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "PG",
+            "need_level": 2
+          },
+          {
+            "position": "C",
+            "need_level": 2
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 30,
+      "round": 1,
+      "pick_in_round": 30,
+      "current_team": "dal",
+      "traded_from": [
+        "okc"
+      ],
+      "trade_notes": "Thunder pick to Mavericks via trade",
+      "is_lottery": false,
+      "player_id": "henri-veesaar",
+      "team_needs_snapshot": {
+        "team": "dal",
+        "needs_ranked": [
+          {
+            "position": "C",
+            "need_level": 4
+          },
+          {
+            "position": "PG",
+            "need_level": 3
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          }
+        ],
+        "picks_made": [
+          "SF"
+        ]
+      }
+    },
+    {
+      "pick_number": 31,
+      "round": 2,
+      "pick_in_round": 1,
+      "current_team": "mem",
+      "traded_from": [
+        "ind"
+      ],
+      "trade_notes": "Pacers R2 pick to Grizzlies",
+      "is_lottery": false,
+      "player_id": "motiejus-krivas",
+      "team_needs_snapshot": {
+        "team": "mem",
+        "needs_ranked": [
+          {
+            "position": "PG",
+            "need_level": 4
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          },
+          {
+            "position": "SG",
+            "need_level": 2
+          },
+          {
+            "position": "SF",
+            "need_level": 1
+          }
+        ],
+        "picks_made": [
+          "SG",
+          "SF"
+        ]
+      }
+    },
+    {
+      "pick_number": 32,
+      "round": 2,
+      "pick_in_round": 2,
+      "current_team": "nyk",
+      "traded_from": [
+        "was"
+      ],
+      "trade_notes": "Wizards R2 pick to Knicks",
+      "is_lottery": false,
+      "player_id": "daniel-jacobsen",
+      "team_needs_snapshot": {
+        "team": "nyk",
+        "needs_ranked": [
+          {
+            "position": "SF",
+            "need_level": 4
+          },
+          {
+            "position": "PF",
+            "need_level": 4
+          },
+          {
+            "position": "PG",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 2
+          },
+          {
+            "position": "SG",
+            "need_level": 1
+          }
+        ],
+        "picks_made": [
+          "SG"
+        ]
+      }
+    },
+    {
+      "pick_number": 33,
+      "round": 2,
+      "pick_in_round": 3,
+      "current_team": "bkn",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": false,
+      "player_id": "ebuka-okorie",
+      "team_needs_snapshot": {
+        "team": "bkn",
+        "needs_ranked": [
+          {
+            "position": "PG",
+            "need_level": 5
+          },
+          {
+            "position": "SG",
+            "need_level": 4
+          },
+          {
+            "position": "SF",
+            "need_level": 4
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 1
+          }
+        ],
+        "picks_made": [
+          "PF"
+        ]
+      }
+    },
+    {
+      "pick_number": 34,
+      "round": 2,
+      "pick_in_round": 4,
+      "current_team": "sac",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": false,
+      "player_id": "tahaad-pettiford",
+      "team_needs_snapshot": {
+        "team": "sac",
+        "needs_ranked": [
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          },
+          {
+            "position": "PG",
+            "need_level": 2
+          }
+        ],
+        "picks_made": [
+          "SF"
+        ]
+      }
+    },
+    {
+      "pick_number": 35,
+      "round": 2,
+      "pick_in_round": 5,
+      "current_team": "sas",
+      "traded_from": [
+        "uta"
+      ],
+      "trade_notes": "Jazz R2 pick to Spurs",
+      "is_lottery": false,
+      "player_id": "braden-smith",
+      "team_needs_snapshot": {
+        "team": "sas",
+        "needs_ranked": [
+          {
+            "position": "PG",
+            "need_level": 4
+          },
+          {
+            "position": "SF",
+            "need_level": 4
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          }
+        ],
+        "picks_made": [
+          "C"
+        ]
+      }
+    },
+    {
+      "pick_number": 36,
+      "round": 2,
+      "pick_in_round": 6,
+      "current_team": "chi",
+      "traded_from": [
+        "nop"
+      ],
+      "trade_notes": "Pelicans R2 pick to Bulls",
+      "is_lottery": false,
+      "player_id": "zuby-ejiofor",
+      "team_needs_snapshot": {
+        "team": "chi",
+        "needs_ranked": [
+          {
+            "position": "PF",
+            "need_level": 4
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          },
+          {
+            "position": "PG",
+            "need_level": 2
+          }
+        ],
+        "picks_made": [
+          "PG"
+        ]
+      }
+    },
+    {
+      "pick_number": 37,
+      "round": 2,
+      "pick_in_round": 7,
+      "current_team": "okc",
+      "traded_from": [
+        "dal"
+      ],
+      "trade_notes": "Mavericks R2 pick to Thunder",
+      "is_lottery": false,
+      "player_id": "flory-bidunga",
+      "team_needs_snapshot": {
+        "team": "okc",
+        "needs_ranked": [
+          {
+            "position": "SG",
+            "need_level": 4
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          },
+          {
+            "position": "PG",
+            "need_level": 2
+          },
+          {
+            "position": "SF",
+            "need_level": 1
+          },
+          {
+            "position": "PF",
+            "need_level": 1
+          }
+        ],
+        "picks_made": [
+          "PF",
+          "SF"
+        ]
+      }
+    },
+    {
+      "pick_number": 38,
+      "round": 2,
+      "pick_in_round": 8,
+      "current_team": "lac",
+      "traded_from": [
+        "mem"
+      ],
+      "trade_notes": "Grizzlies R2 pick to Clippers",
+      "is_lottery": false,
+      "player_id": "joseph-tugler",
+      "team_needs_snapshot": {
+        "team": "lac",
+        "needs_ranked": [
+          {
+            "position": "PG",
+            "need_level": 4
+          },
+          {
+            "position": "C",
+            "need_level": 4
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 39,
+      "round": 2,
+      "pick_in_round": 9,
+      "current_team": "hou",
+      "traded_from": [
+        "chi"
+      ],
+      "trade_notes": "Bulls R2 pick to Rockets",
+      "is_lottery": false,
+      "player_id": "alvaro-folgueiras",
+      "team_needs_snapshot": {
+        "team": "hou",
+        "needs_ranked": [
+          {
+            "position": "PF",
+            "need_level": 5
+          },
+          {
+            "position": "SF",
+            "need_level": 4
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          },
+          {
+            "position": "PG",
+            "need_level": 2
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 40,
+      "round": 2,
+      "pick_in_round": 10,
+      "current_team": "bos",
+      "traded_from": [
+        "mil"
+      ],
+      "trade_notes": "Bucks R2 pick to Celtics",
+      "is_lottery": false,
+      "player_id": "allen-graves",
+      "team_needs_snapshot": {
+        "team": "bos",
+        "needs_ranked": [
+          {
+            "position": "PG",
+            "need_level": 3
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 2
+          }
+        ],
+        "picks_made": [
+          "C"
+        ]
+      }
+    },
+    {
+      "pick_number": 41,
+      "round": 2,
+      "pick_in_round": 11,
+      "current_team": "sas",
+      "traded_from": [
+        "por"
+      ],
+      "trade_notes": "Trail Blazers R2 pick to Spurs",
+      "is_lottery": false,
+      "player_id": "johann-grunloh",
+      "team_needs_snapshot": {
+        "team": "sas",
+        "needs_ranked": [
+          {
+            "position": "SF",
+            "need_level": 4
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          },
+          {
+            "position": "PG",
+            "need_level": 2
+          }
+        ],
+        "picks_made": [
+          "C",
+          "PG"
+        ]
+      }
+    },
+    {
+      "pick_number": 42,
+      "round": 2,
+      "pick_in_round": 12,
+      "current_team": "mia",
+      "traded_from": [
+        "gsw"
+      ],
+      "trade_notes": "Warriors R2 pick to Heat",
+      "is_lottery": false,
+      "player_id": "isaiah-evans",
+      "team_needs_snapshot": {
+        "team": "mia",
+        "needs_ranked": [
+          {
+            "position": "SF",
+            "need_level": 4
+          },
+          {
+            "position": "PG",
+            "need_level": 3
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 2
+          }
+        ],
+        "picks_made": [
+          "C"
+        ]
+      }
+    },
+    {
+      "pick_number": 43,
+      "round": 2,
+      "pick_in_round": 13,
+      "current_team": "sac",
+      "traded_from": [
+        "cha"
+      ],
+      "trade_notes": "Hornets R2 pick to Kings",
+      "is_lottery": false,
+      "player_id": "chris-cenac-jr",
+      "team_needs_snapshot": {
+        "team": "sac",
+        "needs_ranked": [
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          }
+        ],
+        "picks_made": [
+          "SF",
+          "PG"
+        ]
+      }
+    },
+    {
+      "pick_number": 44,
+      "round": 2,
+      "pick_in_round": 14,
+      "current_team": "bkn",
+      "traded_from": [
+        "lac"
+      ],
+      "trade_notes": "Clippers R2 pick to Nets",
+      "is_lottery": false,
+      "player_id": "tamin-lipsey",
+      "team_needs_snapshot": {
+        "team": "bkn",
+        "needs_ranked": [
+          {
+            "position": "PG",
+            "need_level": 5
+          },
+          {
+            "position": "SF",
+            "need_level": 4
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          },
+          {
+            "position": "SG",
+            "need_level": 2
+          },
+          {
+            "position": "PF",
+            "need_level": 1
+          }
+        ],
+        "picks_made": [
+          "PF",
+          "SG"
+        ]
+      }
+    },
+    {
+      "pick_number": 45,
+      "round": 2,
+      "pick_in_round": 15,
+      "current_team": "den",
+      "traded_from": [
+        "atl"
+      ],
+      "trade_notes": "Hawks R2 pick to Nuggets",
+      "is_lottery": false,
+      "player_id": "kanaan-carlyle",
+      "team_needs_snapshot": {
+        "team": "den",
+        "needs_ranked": [
+          {
+            "position": "SF",
+            "need_level": 4
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 2
+          },
+          {
+            "position": "PG",
+            "need_level": 1
+          }
+        ],
+        "picks_made": [
+          "PG"
+        ]
+      }
+    },
+    {
+      "pick_number": 46,
+      "round": 2,
+      "pick_in_round": 16,
+      "current_team": "phx",
+      "traded_from": [
+        "phi"
+      ],
+      "trade_notes": "76ers R2 pick to Suns",
+      "is_lottery": false,
+      "player_id": "meleek-thomas",
+      "team_needs_snapshot": {
+        "team": "phx",
+        "needs_ranked": [
+          {
+            "position": "PG",
+            "need_level": 4
+          },
+          {
+            "position": "PF",
+            "need_level": 4
+          },
+          {
+            "position": "C",
+            "need_level": 4
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 47,
+      "round": 2,
+      "pick_in_round": 17,
+      "current_team": "sas",
+      "traded_from": [
+        "mia"
+      ],
+      "trade_notes": "Heat R2 pick to Spurs",
+      "is_lottery": false,
+      "player_id": "paul-mcneil-jr",
+      "team_needs_snapshot": {
+        "team": "sas",
+        "needs_ranked": [
+          {
+            "position": "SF",
+            "need_level": 4
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "PG",
+            "need_level": 2
+          },
+          {
+            "position": "C",
+            "need_level": 1
+          }
+        ],
+        "picks_made": [
+          "C",
+          "PG",
+          "C"
+        ]
+      }
+    },
+    {
+      "pick_number": 48,
+      "round": 2,
+      "pick_in_round": 18,
+      "current_team": "tor",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": false,
+      "player_id": "rueben-chinyelu",
+      "team_needs_snapshot": {
+        "team": "tor",
+        "needs_ranked": [
+          {
+            "position": "PG",
+            "need_level": 4
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          }
+        ],
+        "picks_made": [
+          "SF"
+        ]
+      }
+    },
+    {
+      "pick_number": 49,
+      "round": 2,
+      "pick_in_round": 19,
+      "current_team": "orl",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": false,
+      "player_id": "blue-cain",
+      "team_needs_snapshot": {
+        "team": "orl",
+        "needs_ranked": [
+          {
+            "position": "SG",
+            "need_level": 5
+          },
+          {
+            "position": "PG",
+            "need_level": 3
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 2
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 50,
+      "round": 2,
+      "pick_in_round": 20,
+      "current_team": "dal",
+      "traded_from": [
+        "phx"
+      ],
+      "trade_notes": "Suns R2 pick to Mavericks",
+      "is_lottery": false,
+      "player_id": "neoklis-avdalas",
+      "team_needs_snapshot": {
+        "team": "dal",
+        "needs_ranked": [
+          {
+            "position": "PG",
+            "need_level": 3
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 2
+          }
+        ],
+        "picks_made": [
+          "SF",
+          "C"
+        ]
+      }
+    },
+    {
+      "pick_number": 51,
+      "round": 2,
+      "pick_in_round": 21,
+      "current_team": "was",
+      "traded_from": [
+        "min"
+      ],
+      "trade_notes": "Timberwolves R2 pick to Wizards",
+      "is_lottery": false,
+      "player_id": "tounde-yessoufou",
+      "team_needs_snapshot": {
+        "team": "was",
+        "needs_ranked": [
+          {
+            "position": "PG",
+            "need_level": 5
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "SG",
+            "need_level": 2
+          },
+          {
+            "position": "C",
+            "need_level": 2
+          }
+        ],
+        "picks_made": [
+          "SG"
+        ]
+      }
+    },
+    {
+      "pick_number": 52,
+      "round": 2,
+      "pick_in_round": 22,
+      "current_team": "lac",
+      "traded_from": [
+        "cle"
+      ],
+      "trade_notes": "Cavaliers R2 pick to Clippers",
+      "is_lottery": false,
+      "player_id": "milan-momcilovic",
+      "team_needs_snapshot": {
+        "team": "lac",
+        "needs_ranked": [
+          {
+            "position": "PG",
+            "need_level": 4
+          },
+          {
+            "position": "C",
+            "need_level": 4
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 1
+          }
+        ],
+        "picks_made": [
+          "PF"
+        ]
+      }
+    },
+    {
+      "pick_number": 53,
+      "round": 2,
+      "pick_in_round": 23,
+      "current_team": "chi",
+      "traded_from": [
+        "den"
+      ],
+      "trade_notes": "Nuggets R2 pick to Bulls",
+      "is_lottery": false,
+      "player_id": "alex-karaban",
+      "team_needs_snapshot": {
+        "team": "chi",
+        "needs_ranked": [
+          {
+            "position": "PF",
+            "need_level": 4
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "PG",
+            "need_level": 2
+          },
+          {
+            "position": "C",
+            "need_level": 1
+          }
+        ],
+        "picks_made": [
+          "PG",
+          "C"
+        ]
+      }
+    },
+    {
+      "pick_number": 54,
+      "round": 2,
+      "pick_in_round": 24,
+      "current_team": "hou",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": false,
+      "player_id": "zvonimir-ivisic",
+      "team_needs_snapshot": {
+        "team": "hou",
+        "needs_ranked": [
+          {
+            "position": "SF",
+            "need_level": 4
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          },
+          {
+            "position": "PG",
+            "need_level": 2
+          }
+        ],
+        "picks_made": [
+          "PF"
+        ]
+      }
+    },
+    {
+      "pick_number": 55,
+      "round": 2,
+      "pick_in_round": 25,
+      "current_team": "gsw",
+      "traded_from": [
+        "lal"
+      ],
+      "trade_notes": "Lakers R2 pick to Warriors",
+      "is_lottery": false,
+      "player_id": "eric-reibe",
+      "team_needs_snapshot": {
+        "team": "gsw",
+        "needs_ranked": [
+          {
+            "position": "PF",
+            "need_level": 4
+          },
+          {
+            "position": "SG",
+            "need_level": 3
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          },
+          {
+            "position": "PG",
+            "need_level": 2
+          }
+        ],
+        "picks_made": [
+          "PG"
+        ]
+      }
+    },
+    {
+      "pick_number": 56,
+      "round": 2,
+      "pick_in_round": 26,
+      "current_team": "nyk",
+      "traded_from": [],
+      "trade_notes": null,
+      "is_lottery": false,
+      "player_id": "bruce-thornton",
+      "team_needs_snapshot": {
+        "team": "nyk",
+        "needs_ranked": [
+          {
+            "position": "SF",
+            "need_level": 4
+          },
+          {
+            "position": "PF",
+            "need_level": 4
+          },
+          {
+            "position": "PG",
+            "need_level": 3
+          },
+          {
+            "position": "SG",
+            "need_level": 1
+          }
+        ],
+        "picks_made": [
+          "SG",
+          "C"
+        ]
+      }
+    },
+    {
+      "pick_number": 57,
+      "round": 2,
+      "pick_in_round": 27,
+      "current_team": "atl",
+      "traded_from": [
+        "bos"
+      ],
+      "trade_notes": "Celtics R2 pick to Hawks",
+      "is_lottery": false,
+      "player_id": "jalil-bethea",
+      "team_needs_snapshot": {
+        "team": "atl",
+        "needs_ranked": [
+          {
+            "position": "PF",
+            "need_level": 5
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          },
+          {
+            "position": "SG",
+            "need_level": 2
+          },
+          {
+            "position": "PG",
+            "need_level": 1
+          }
+        ],
+        "picks_made": [
+          "SG",
+          "PG"
+        ]
+      }
+    },
+    {
+      "pick_number": 58,
+      "round": 2,
+      "pick_in_round": 28,
+      "current_team": "nop",
+      "traded_from": [
+        "det"
+      ],
+      "trade_notes": "Pistons R2 pick to Pelicans",
+      "is_lottery": false,
+      "player_id": "dj-wagner",
+      "team_needs_snapshot": {
+        "team": "nop",
+        "needs_ranked": [
+          {
+            "position": "C",
+            "need_level": 5
+          },
+          {
+            "position": "SG",
+            "need_level": 4
+          },
+          {
+            "position": "PF",
+            "need_level": 4
+          },
+          {
+            "position": "PG",
+            "need_level": 3
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          }
+        ],
+        "picks_made": []
+      }
+    },
+    {
+      "pick_number": 59,
+      "round": 2,
+      "pick_in_round": 29,
+      "current_team": "min",
+      "traded_from": [
+        "sas"
+      ],
+      "trade_notes": "Spurs R2 pick to Timberwolves",
+      "is_lottery": false,
+      "player_id": "makhi-mitchell",
+      "team_needs_snapshot": {
+        "team": "min",
+        "needs_ranked": [
+          {
+            "position": "PG",
+            "need_level": 3
+          },
+          {
+            "position": "SF",
+            "need_level": 3
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "C",
+            "need_level": 3
+          },
+          {
+            "position": "SG",
+            "need_level": 2
+          }
+        ],
+        "picks_made": [
+          "SG"
+        ]
+      }
+    },
+    {
+      "pick_number": 60,
+      "round": 2,
+      "pick_in_round": 30,
+      "current_team": "was",
+      "traded_from": [
+        "okc"
+      ],
+      "trade_notes": "Thunder R2 pick to Wizards",
+      "is_lottery": false,
+      "player_id": "amari-allen",
+      "team_needs_snapshot": {
+        "team": "was",
+        "needs_ranked": [
+          {
+            "position": "PG",
+            "need_level": 5
+          },
+          {
+            "position": "PF",
+            "need_level": 3
+          },
+          {
+            "position": "SG",
+            "need_level": 2
+          },
+          {
+            "position": "C",
+            "need_level": 2
+          },
+          {
+            "position": "SF",
+            "need_level": 1
+          }
+        ],
+        "picks_made": [
+          "SG",
+          "SF"
+        ]
+      }
+    }
+  ]
+}

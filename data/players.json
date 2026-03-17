@@ -1,0 +1,2094 @@
+{
+  "players": [
+    {
+      "player_id": "aj-dybantsa",
+      "name": "AJ Dybantsa",
+      "position": "SF",
+      "college": "BYU",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "9.8/10",
+            "Big Board Rank": "#1",
+            "Mock Consensus": "#1 avg (1 src)",
+            "Model Score": "98.9/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 9.8,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 98.9,
+        "components": {
+          "ESPN Grade": "9.8/10",
+          "Big Board Rank": "#1",
+          "Mock Consensus (1 src)": "#1 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 1.0 (1 source(s)). Model score: 98.9/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "darryn-peterson",
+      "name": "Darryn Peterson",
+      "position": "SG",
+      "college": "Kansas",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "9.7/10",
+            "Big Board Rank": "#2",
+            "Mock Consensus": "#2 avg (1 src)",
+            "Model Score": "97.6/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 9.7,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 97.6,
+        "components": {
+          "ESPN Grade": "9.7/10",
+          "Big Board Rank": "#2",
+          "Mock Consensus (1 src)": "#2 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 2.0 (1 source(s)). Model score: 97.6/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "cameron-boozer",
+      "name": "Cameron Boozer",
+      "position": "PF",
+      "college": "Duke",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "9.5/10",
+            "Big Board Rank": "#3",
+            "Mock Consensus": "#3 avg (1 src)",
+            "Model Score": "95.7/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 9.5,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 95.7,
+        "components": {
+          "ESPN Grade": "9.5/10",
+          "Big Board Rank": "#3",
+          "Mock Consensus (1 src)": "#3 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 3.0 (1 source(s)). Model score: 95.7/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "caleb-wilson",
+      "name": "Caleb Wilson",
+      "position": "SF",
+      "college": "North Carolina",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "9.2/10",
+            "Big Board Rank": "#4",
+            "Mock Consensus": "#4 avg (1 src)",
+            "Model Score": "93.3/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 9.2,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 93.3,
+        "components": {
+          "ESPN Grade": "9.2/10",
+          "Big Board Rank": "#4",
+          "Mock Consensus (1 src)": "#4 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 4.0 (1 source(s)). Model score: 93.3/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "kingston-flemings",
+      "name": "Kingston Flemings",
+      "position": "PG",
+      "college": "Houston",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "8.8/10",
+            "Big Board Rank": "#5",
+            "Mock Consensus": "#5 avg (1 src)",
+            "Model Score": "90.3/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 8.8,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 90.3,
+        "components": {
+          "ESPN Grade": "8.8/10",
+          "Big Board Rank": "#5",
+          "Mock Consensus (1 src)": "#5 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 5.0 (1 source(s)). Model score: 90.3/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "dailyn-swain",
+      "name": "Dailyn Swain",
+      "position": "SF",
+      "college": "Texas",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "8.5/10",
+            "Big Board Rank": "#6",
+            "Mock Consensus": "#6 avg (1 src)",
+            "Model Score": "87.9/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 8.5,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 87.9,
+        "components": {
+          "ESPN Grade": "8.5/10",
+          "Big Board Rank": "#6",
+          "Mock Consensus (1 src)": "#6 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 6.0 (1 source(s)). Model score: 87.9/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "mikel-brown-jr",
+      "name": "Mikel Brown Jr.",
+      "position": "SG",
+      "college": "Louisville",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "8.3/10",
+            "Big Board Rank": "#7",
+            "Mock Consensus": "#7 avg (1 src)",
+            "Model Score": "86.1/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 8.3,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 86.1,
+        "components": {
+          "ESPN Grade": "8.3/10",
+          "Big Board Rank": "#7",
+          "Mock Consensus (1 src)": "#7 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 7.0 (1 source(s)). Model score: 86.1/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "keaton-wagler",
+      "name": "Keaton Wagler",
+      "position": "SG",
+      "college": "Illinois",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "8.2/10",
+            "Big Board Rank": "#8",
+            "Mock Consensus": "#8 avg (1 src)",
+            "Model Score": "84.8/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 8.2,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 84.8,
+        "components": {
+          "ESPN Grade": "8.2/10",
+          "Big Board Rank": "#8",
+          "Mock Consensus (1 src)": "#8 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 8.0 (1 source(s)). Model score: 84.8/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "bennett-stirtz",
+      "name": "Bennett Stirtz",
+      "position": "PG",
+      "college": "Iowa",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "8.0/10",
+            "Big Board Rank": "#9",
+            "Mock Consensus": "#9 avg (1 src)",
+            "Model Score": "82.9/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 8.0,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 82.9,
+        "components": {
+          "ESPN Grade": "8.0/10",
+          "Big Board Rank": "#9",
+          "Mock Consensus (1 src)": "#9 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 9.0 (1 source(s)). Model score: 82.9/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "aday-mara",
+      "name": "Aday Mara",
+      "position": "C",
+      "college": "Michigan",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "7.5/10",
+            "Big Board Rank": "#13",
+            "Mock Consensus": "#13 avg (1 src)",
+            "Model Score": "77.1/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 7.5,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 77.1,
+        "components": {
+          "ESPN Grade": "7.5/10",
+          "Big Board Rank": "#13",
+          "Mock Consensus (1 src)": "#13 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 13.0 (1 source(s)). Model score: 77.1/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "yaxel-lendeborg",
+      "name": "Yaxel Lendeborg",
+      "position": "PF",
+      "college": "Michigan",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "7.9/10",
+            "Big Board Rank": "#10",
+            "Mock Consensus": "#10 avg (1 src)",
+            "Model Score": "81.6/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 7.9,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 81.6,
+        "components": {
+          "ESPN Grade": "7.9/10",
+          "Big Board Rank": "#10",
+          "Mock Consensus (1 src)": "#10 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 10.0 (1 source(s)). Model score: 81.6/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "labaron-philon",
+      "name": "Labaron Philon",
+      "position": "PG",
+      "college": "Alabama",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "7.8/10",
+            "Big Board Rank": "#11",
+            "Mock Consensus": "#11 avg (1 src)",
+            "Model Score": "80.3/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 7.8,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 80.3,
+        "components": {
+          "ESPN Grade": "7.8/10",
+          "Big Board Rank": "#11",
+          "Mock Consensus (1 src)": "#11 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 11.0 (1 source(s)). Model score: 80.3/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "darius-acuff-jr",
+      "name": "Darius Acuff Jr.",
+      "position": "PG",
+      "college": "Arkansas",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "7.7/10",
+            "Big Board Rank": "#12",
+            "Mock Consensus": "#12 avg (1 src)",
+            "Model Score": "79.0/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 7.7,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 79.0,
+        "components": {
+          "ESPN Grade": "7.7/10",
+          "Big Board Rank": "#12",
+          "Mock Consensus (1 src)": "#12 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 12.0 (1 source(s)). Model score: 79.0/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "koa-peat",
+      "name": "Koa Peat",
+      "position": "PF",
+      "college": "Arizona",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "7.2/10",
+            "Big Board Rank": "#16",
+            "Mock Consensus": "#16 avg (1 src)",
+            "Model Score": "73.2/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 7.2,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 73.2,
+        "components": {
+          "ESPN Grade": "7.2/10",
+          "Big Board Rank": "#16",
+          "Mock Consensus (1 src)": "#16 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 16.0 (1 source(s)). Model score: 73.2/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "hannes-steinbach",
+      "name": "Hannes Steinbach",
+      "position": "SF",
+      "college": "Washington",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "7.3/10",
+            "Big Board Rank": "#15",
+            "Mock Consensus": "#15 avg (1 src)",
+            "Model Score": "74.5/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 7.3,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 74.5,
+        "components": {
+          "ESPN Grade": "7.3/10",
+          "Big Board Rank": "#15",
+          "Mock Consensus (1 src)": "#15 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 15.0 (1 source(s)). Model score: 74.5/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "patrick-ngongba-ii",
+      "name": "Patrick Ngongba II",
+      "position": "C",
+      "college": "Duke",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "7.4/10",
+            "Big Board Rank": "#14",
+            "Mock Consensus": "#14 avg (1 src)",
+            "Model Score": "75.8/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 7.4,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 75.8,
+        "components": {
+          "ESPN Grade": "7.4/10",
+          "Big Board Rank": "#14",
+          "Mock Consensus (1 src)": "#14 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 14.0 (1 source(s)). Model score: 75.8/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "jayden-quaintance",
+      "name": "Jayden Quaintance",
+      "position": "C",
+      "college": "Kentucky",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "7.1/10",
+            "Big Board Rank": "#17",
+            "Mock Consensus": "#17 avg (1 src)",
+            "Model Score": "71.8/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 7.1,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 71.8,
+        "components": {
+          "ESPN Grade": "7.1/10",
+          "Big Board Rank": "#17",
+          "Mock Consensus (1 src)": "#17 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 17.0 (1 source(s)). Model score: 71.8/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "joshua-jefferson",
+      "name": "Joshua Jefferson",
+      "position": "SF",
+      "college": "Iowa State",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "6.9/10",
+            "Big Board Rank": "#19",
+            "Mock Consensus": "#19 avg (1 src)",
+            "Model Score": "69.2/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 6.9,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 69.2,
+        "components": {
+          "ESPN Grade": "6.9/10",
+          "Big Board Rank": "#19",
+          "Mock Consensus (1 src)": "#19 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 19.0 (1 source(s)). Model score: 69.2/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "nate-ament",
+      "name": "Nate Ament",
+      "position": "SF",
+      "college": "Tennessee",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "6.8/10",
+            "Big Board Rank": "#20",
+            "Mock Consensus": "#20 avg (1 src)",
+            "Model Score": "67.9/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 6.8,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 67.9,
+        "components": {
+          "ESPN Grade": "6.8/10",
+          "Big Board Rank": "#20",
+          "Mock Consensus (1 src)": "#20 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 20.0 (1 source(s)). Model score: 67.9/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "tyler-tanner",
+      "name": "Tyler Tanner",
+      "position": "SG",
+      "college": "Vanderbilt",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "7.0/10",
+            "Big Board Rank": "#18",
+            "Mock Consensus": "#18 avg (1 src)",
+            "Model Score": "70.5/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 7.0,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 70.5,
+        "components": {
+          "ESPN Grade": "7.0/10",
+          "Big Board Rank": "#18",
+          "Mock Consensus (1 src)": "#18 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 18.0 (1 source(s)). Model score: 70.5/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "christian-anderson",
+      "name": "Christian Anderson",
+      "position": "PG",
+      "college": "Texas Tech",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "6.7/10",
+            "Big Board Rank": "#21",
+            "Mock Consensus": "#21 avg (1 src)",
+            "Model Score": "66.6/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 6.7,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 66.6,
+        "components": {
+          "ESPN Grade": "6.7/10",
+          "Big Board Rank": "#21",
+          "Mock Consensus (1 src)": "#21 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 21.0 (1 source(s)). Model score: 66.6/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "boogie-fland",
+      "name": "Boogie Fland",
+      "position": "PG",
+      "college": "Florida",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "6.5/10",
+            "Big Board Rank": "#22",
+            "Mock Consensus": "#22 avg (1 src)",
+            "Model Score": "64.7/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 6.5,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 64.7,
+        "components": {
+          "ESPN Grade": "6.5/10",
+          "Big Board Rank": "#22",
+          "Mock Consensus (1 src)": "#22 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 22.0 (1 source(s)). Model score: 64.7/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "karim-lopez",
+      "name": "Karim Lopez",
+      "position": "SF",
+      "college": "New Zealand Breakers",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "6.0/10",
+            "Big Board Rank": "#27",
+            "Mock Consensus": "#27 avg (1 src)",
+            "Model Score": "58.2/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 6.0,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 58.2,
+        "components": {
+          "ESPN Grade": "6.0/10",
+          "Big Board Rank": "#27",
+          "Mock Consensus (1 src)": "#27 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 27.0 (1 source(s)). Model score: 58.2/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "thomas-haugh",
+      "name": "Thomas Haugh",
+      "position": "SF",
+      "college": "Florida",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "5.7/10",
+            "Big Board Rank": "#30",
+            "Mock Consensus": "#30 avg (1 src)",
+            "Model Score": "54.2/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 5.7,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 54.2,
+        "components": {
+          "ESPN Grade": "5.7/10",
+          "Big Board Rank": "#30",
+          "Mock Consensus (1 src)": "#30 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 30.0 (1 source(s)). Model score: 54.2/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "braylon-mullins",
+      "name": "Braylon Mullins",
+      "position": "PG",
+      "college": "UConn",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "6.2/10",
+            "Big Board Rank": "#25",
+            "Mock Consensus": "#25 avg (1 src)",
+            "Model Score": "60.8/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 6.2,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 60.8,
+        "components": {
+          "ESPN Grade": "6.2/10",
+          "Big Board Rank": "#25",
+          "Mock Consensus (1 src)": "#25 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 25.0 (1 source(s)). Model score: 60.8/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "cameron-carr",
+      "name": "Cameron Carr",
+      "position": "SG",
+      "college": "Baylor",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "6.4/10",
+            "Big Board Rank": "#23",
+            "Mock Consensus": "#23 avg (1 src)",
+            "Model Score": "63.4/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 6.4,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 63.4,
+        "components": {
+          "ESPN Grade": "6.4/10",
+          "Big Board Rank": "#23",
+          "Mock Consensus (1 src)": "#23 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 23.0 (1 source(s)). Model score: 63.4/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "malachi-moreno",
+      "name": "Malachi Moreno",
+      "position": "C",
+      "college": "Kentucky",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "6.1/10",
+            "Big Board Rank": "#26",
+            "Mock Consensus": "#26 avg (1 src)",
+            "Model Score": "59.5/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 6.1,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 59.5,
+        "components": {
+          "ESPN Grade": "6.1/10",
+          "Big Board Rank": "#26",
+          "Mock Consensus (1 src)": "#26 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 26.0 (1 source(s)). Model score: 59.5/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "brayden-burries",
+      "name": "Brayden Burries",
+      "position": "SG",
+      "college": "Arizona",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "6.3/10",
+            "Big Board Rank": "#24",
+            "Mock Consensus": "#24 avg (1 src)",
+            "Model Score": "62.1/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 6.3,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 62.1,
+        "components": {
+          "ESPN Grade": "6.3/10",
+          "Big Board Rank": "#24",
+          "Mock Consensus (1 src)": "#24 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 24.0 (1 source(s)). Model score: 62.1/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "morez-johnson-jr",
+      "name": "Morez Johnson Jr.",
+      "position": "PF",
+      "college": "Michigan",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "5.9/10",
+            "Big Board Rank": "#28",
+            "Mock Consensus": "#28 avg (1 src)",
+            "Model Score": "56.9/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 5.9,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 56.9,
+        "components": {
+          "ESPN Grade": "5.9/10",
+          "Big Board Rank": "#28",
+          "Mock Consensus (1 src)": "#28 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 28.0 (1 source(s)). Model score: 56.9/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "henri-veesaar",
+      "name": "Henri Veesaar",
+      "position": "C",
+      "college": "North Carolina",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "5.8/10",
+            "Big Board Rank": "#29",
+            "Mock Consensus": "#29 avg (1 src)",
+            "Model Score": "55.5/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 5.8,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 55.5,
+        "components": {
+          "ESPN Grade": "5.8/10",
+          "Big Board Rank": "#29",
+          "Mock Consensus (1 src)": "#29 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 29.0 (1 source(s)). Model score: 55.5/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "motiejus-krivas",
+      "name": "Motiejus Krivas",
+      "position": "C",
+      "college": "Arizona",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "5.6/10",
+            "Big Board Rank": "#31",
+            "Mock Consensus": "#31 avg (1 src)",
+            "Model Score": "52.9/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 5.6,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 52.9,
+        "components": {
+          "ESPN Grade": "5.6/10",
+          "Big Board Rank": "#31",
+          "Mock Consensus (1 src)": "#31 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 31.0 (1 source(s)). Model score: 52.9/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "daniel-jacobsen",
+      "name": "Daniel Jacobsen",
+      "position": "C",
+      "college": "Purdue",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "5.5/10",
+            "Big Board Rank": "#32",
+            "Mock Consensus": "#32 avg (1 src)",
+            "Model Score": "51.6/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 5.5,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 51.6,
+        "components": {
+          "ESPN Grade": "5.5/10",
+          "Big Board Rank": "#32",
+          "Mock Consensus (1 src)": "#32 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 32.0 (1 source(s)). Model score: 51.6/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "ebuka-okorie",
+      "name": "Ebuka Okorie",
+      "position": "SG",
+      "college": "Stanford",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "5.4/10",
+            "Big Board Rank": "#33",
+            "Mock Consensus": "#33 avg (1 src)",
+            "Model Score": "50.3/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 5.4,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 50.3,
+        "components": {
+          "ESPN Grade": "5.4/10",
+          "Big Board Rank": "#33",
+          "Mock Consensus (1 src)": "#33 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 33.0 (1 source(s)). Model score: 50.3/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "tahaad-pettiford",
+      "name": "Tahaad Pettiford",
+      "position": "PG",
+      "college": "Auburn",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "5.3/10",
+            "Big Board Rank": "#34",
+            "Mock Consensus": "#34 avg (1 src)",
+            "Model Score": "49.0/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 5.3,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 49.0,
+        "components": {
+          "ESPN Grade": "5.3/10",
+          "Big Board Rank": "#34",
+          "Mock Consensus (1 src)": "#34 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 34.0 (1 source(s)). Model score: 49.0/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "braden-smith",
+      "name": "Braden Smith",
+      "position": "PG",
+      "college": "Purdue",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "5.2/10",
+            "Big Board Rank": "#35",
+            "Mock Consensus": "#35 avg (1 src)",
+            "Model Score": "47.7/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 5.2,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 47.7,
+        "components": {
+          "ESPN Grade": "5.2/10",
+          "Big Board Rank": "#35",
+          "Mock Consensus (1 src)": "#35 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 35.0 (1 source(s)). Model score: 47.7/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "zuby-ejiofor",
+      "name": "Zuby Ejiofor",
+      "position": "C",
+      "college": "St. John's",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "5.1/10",
+            "Big Board Rank": "#36",
+            "Mock Consensus": "#36 avg (1 src)",
+            "Model Score": "46.4/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 5.1,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 46.4,
+        "components": {
+          "ESPN Grade": "5.1/10",
+          "Big Board Rank": "#36",
+          "Mock Consensus (1 src)": "#36 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 36.0 (1 source(s)). Model score: 46.4/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "flory-bidunga",
+      "name": "Flory Bidunga",
+      "position": "C",
+      "college": "Kansas",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "4.8/10",
+            "Big Board Rank": "#39",
+            "Mock Consensus": "#39 avg (1 src)",
+            "Model Score": "42.4/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 4.8,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 42.4,
+        "components": {
+          "ESPN Grade": "4.8/10",
+          "Big Board Rank": "#39",
+          "Mock Consensus (1 src)": "#39 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 39.0 (1 source(s)). Model score: 42.4/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "joseph-tugler",
+      "name": "Joseph Tugler",
+      "position": "PF",
+      "college": "Houston",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "5.0/10",
+            "Big Board Rank": "#37",
+            "Mock Consensus": "#37 avg (1 src)",
+            "Model Score": "45.0/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 5.0,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 45.0,
+        "components": {
+          "ESPN Grade": "5.0/10",
+          "Big Board Rank": "#37",
+          "Mock Consensus (1 src)": "#37 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 37.0 (1 source(s)). Model score: 45.0/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "alvaro-folgueiras",
+      "name": "Alvaro Folgueiras",
+      "position": "PF",
+      "college": "Iowa",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "4.9/10",
+            "Big Board Rank": "#38",
+            "Mock Consensus": "#38 avg (1 src)",
+            "Model Score": "43.7/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 4.9,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 43.7,
+        "components": {
+          "ESPN Grade": "4.9/10",
+          "Big Board Rank": "#38",
+          "Mock Consensus (1 src)": "#38 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 38.0 (1 source(s)). Model score: 43.7/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "allen-graves",
+      "name": "Allen Graves",
+      "position": "SF",
+      "college": "Santa Clara",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "4.7/10",
+            "Big Board Rank": "#40",
+            "Mock Consensus": "#40 avg (1 src)",
+            "Model Score": "41.1/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 4.7,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 41.1,
+        "components": {
+          "ESPN Grade": "4.7/10",
+          "Big Board Rank": "#40",
+          "Mock Consensus (1 src)": "#40 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 40.0 (1 source(s)). Model score: 41.1/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "johann-grunloh",
+      "name": "Johann Grunloh",
+      "position": "C",
+      "college": "Virginia",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "4.6/10",
+            "Big Board Rank": "#41",
+            "Mock Consensus": "#41 avg (1 src)",
+            "Model Score": "39.8/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 4.6,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 39.8,
+        "components": {
+          "ESPN Grade": "4.6/10",
+          "Big Board Rank": "#41",
+          "Mock Consensus (1 src)": "#41 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 41.0 (1 source(s)). Model score: 39.8/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "isaiah-evans",
+      "name": "Isaiah Evans",
+      "position": "SF",
+      "college": "Duke",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "4.3/10",
+            "Big Board Rank": "#44",
+            "Mock Consensus": "#44 avg (1 src)",
+            "Model Score": "35.9/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 4.3,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 35.9,
+        "components": {
+          "ESPN Grade": "4.3/10",
+          "Big Board Rank": "#44",
+          "Mock Consensus (1 src)": "#44 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 44.0 (1 source(s)). Model score: 35.9/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "chris-cenac-jr",
+      "name": "Chris Cenac Jr.",
+      "position": "C",
+      "college": "Houston",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "4.5/10",
+            "Big Board Rank": "#42",
+            "Mock Consensus": "#42 avg (1 src)",
+            "Model Score": "38.5/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 4.5,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 38.5,
+        "components": {
+          "ESPN Grade": "4.5/10",
+          "Big Board Rank": "#42",
+          "Mock Consensus (1 src)": "#42 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 42.0 (1 source(s)). Model score: 38.5/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "tamin-lipsey",
+      "name": "Tamin Lipsey",
+      "position": "PG",
+      "college": "Iowa State",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "4.4/10",
+            "Big Board Rank": "#43",
+            "Mock Consensus": "#43 avg (1 src)",
+            "Model Score": "37.2/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 4.4,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 37.2,
+        "components": {
+          "ESPN Grade": "4.4/10",
+          "Big Board Rank": "#43",
+          "Mock Consensus (1 src)": "#43 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 43.0 (1 source(s)). Model score: 37.2/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "kanaan-carlyle",
+      "name": "Kanaan Carlyle",
+      "position": "SG",
+      "college": "Stanford",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "4.2/10",
+            "Big Board Rank": "#45",
+            "Mock Consensus": "#45 avg (1 src)",
+            "Model Score": "34.5/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 4.2,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 34.5,
+        "components": {
+          "ESPN Grade": "4.2/10",
+          "Big Board Rank": "#45",
+          "Mock Consensus (1 src)": "#45 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 45.0 (1 source(s)). Model score: 34.5/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "meleek-thomas",
+      "name": "Meleek Thomas",
+      "position": "SG",
+      "college": "Arkansas",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "4.1/10",
+            "Big Board Rank": "#46",
+            "Mock Consensus": "#46 avg (1 src)",
+            "Model Score": "33.2/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 4.1,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 33.2,
+        "components": {
+          "ESPN Grade": "4.1/10",
+          "Big Board Rank": "#46",
+          "Mock Consensus (1 src)": "#46 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 46.0 (1 source(s)). Model score: 33.2/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "paul-mcneil-jr",
+      "name": "Paul McNeil Jr.",
+      "position": "SG",
+      "college": "NC State",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "4.0/10",
+            "Big Board Rank": "#47",
+            "Mock Consensus": "#47 avg (1 src)",
+            "Model Score": "31.9/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 4.0,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 31.9,
+        "components": {
+          "ESPN Grade": "4.0/10",
+          "Big Board Rank": "#47",
+          "Mock Consensus (1 src)": "#47 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 47.0 (1 source(s)). Model score: 31.9/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "rueben-chinyelu",
+      "name": "Rueben Chinyelu",
+      "position": "C",
+      "college": "Florida",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "3.9/10",
+            "Big Board Rank": "#48",
+            "Mock Consensus": "#48 avg (1 src)",
+            "Model Score": "30.6/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 3.9,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 30.6,
+        "components": {
+          "ESPN Grade": "3.9/10",
+          "Big Board Rank": "#48",
+          "Mock Consensus (1 src)": "#48 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 48.0 (1 source(s)). Model score: 30.6/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "blue-cain",
+      "name": "Blue Cain",
+      "position": "PG",
+      "college": "Georgia",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "3.8/10",
+            "Big Board Rank": "#49",
+            "Mock Consensus": "#49 avg (1 src)",
+            "Model Score": "29.3/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 3.8,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 29.3,
+        "components": {
+          "ESPN Grade": "3.8/10",
+          "Big Board Rank": "#49",
+          "Mock Consensus (1 src)": "#49 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 49.0 (1 source(s)). Model score: 29.3/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "neoklis-avdalas",
+      "name": "Neoklis Avdalas",
+      "position": "SF",
+      "college": "Virginia Tech",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "3.7/10",
+            "Big Board Rank": "#50",
+            "Mock Consensus": "#50 avg (1 src)",
+            "Model Score": "28.0/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 3.7,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 28.0,
+        "components": {
+          "ESPN Grade": "3.7/10",
+          "Big Board Rank": "#50",
+          "Mock Consensus (1 src)": "#50 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 50.0 (1 source(s)). Model score: 28.0/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "tounde-yessoufou",
+      "name": "Tounde Yessoufou",
+      "position": "SF",
+      "college": "Baylor",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "3.5/10",
+            "Big Board Rank": "#52",
+            "Mock Consensus": "#52 avg (1 src)",
+            "Model Score": "25.4/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 3.5,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 25.4,
+        "components": {
+          "ESPN Grade": "3.5/10",
+          "Big Board Rank": "#52",
+          "Mock Consensus (1 src)": "#52 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 52.0 (1 source(s)). Model score: 25.4/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "milan-momcilovic",
+      "name": "Milan Momcilovic",
+      "position": "SF",
+      "college": "Iowa State",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "3.4/10",
+            "Big Board Rank": "#53",
+            "Mock Consensus": "#53 avg (1 src)",
+            "Model Score": "24.0/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 3.4,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 24.0,
+        "components": {
+          "ESPN Grade": "3.4/10",
+          "Big Board Rank": "#53",
+          "Mock Consensus (1 src)": "#53 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 53.0 (1 source(s)). Model score: 24.0/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "alex-karaban",
+      "name": "Alex Karaban",
+      "position": "SF",
+      "college": "UConn",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "3.3/10",
+            "Big Board Rank": "#54",
+            "Mock Consensus": "#54 avg (1 src)",
+            "Model Score": "22.7/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 3.3,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 22.7,
+        "components": {
+          "ESPN Grade": "3.3/10",
+          "Big Board Rank": "#54",
+          "Mock Consensus (1 src)": "#54 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 54.0 (1 source(s)). Model score: 22.7/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "zvonimir-ivisic",
+      "name": "Zvonimir Ivisic",
+      "position": "C",
+      "college": "Illinois",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "2.6/10",
+            "Big Board Rank": "#61",
+            "Model Score": "26.0/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 2.6,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN Grade (primary)",
+        "base_score": 26.0,
+        "components": {
+          "ESPN Grade": "2.6/10",
+          "Big Board Rank": "#61"
+        }
+      },
+      "notes": "Model score: 26.0/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "eric-reibe",
+      "name": "Eric Reibe",
+      "position": "C",
+      "college": "UConn",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "2.5/10",
+            "Big Board Rank": "#62",
+            "Model Score": "25.0/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 2.5,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN Grade (primary)",
+        "base_score": 25.0,
+        "components": {
+          "ESPN Grade": "2.5/10",
+          "Big Board Rank": "#62"
+        }
+      },
+      "notes": "Model score: 25.0/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "bruce-thornton",
+      "name": "Bruce Thornton",
+      "position": "PG",
+      "college": "Ohio State",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "2.3/10",
+            "Big Board Rank": "#64",
+            "Model Score": "23.0/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 2.3,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN Grade (primary)",
+        "base_score": 23.0,
+        "components": {
+          "ESPN Grade": "2.3/10",
+          "Big Board Rank": "#64"
+        }
+      },
+      "notes": "Model score: 23.0/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "jalil-bethea",
+      "name": "Jalil Bethea",
+      "position": "SG",
+      "college": "Alabama",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "3.6/10",
+            "Big Board Rank": "#51",
+            "Mock Consensus": "#51 avg (1 src)",
+            "Model Score": "26.7/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 3.6,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 26.7,
+        "components": {
+          "ESPN Grade": "3.6/10",
+          "Big Board Rank": "#51",
+          "Mock Consensus (1 src)": "#51 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 51.0 (1 source(s)). Model score: 26.7/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "dj-wagner",
+      "name": "D.J. Wagner",
+      "position": "PG",
+      "college": "Kentucky",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "2.1/10",
+            "Big Board Rank": "#66",
+            "Model Score": "21.0/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 2.1,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN Grade (primary)",
+        "base_score": 21.0,
+        "components": {
+          "ESPN Grade": "2.1/10",
+          "Big Board Rank": "#66"
+        }
+      },
+      "notes": "Model score: 21.0/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "makhi-mitchell",
+      "name": "Makhi Mitchell",
+      "position": "PF",
+      "college": "Oregon",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "2.2/10",
+            "Big Board Rank": "#65",
+            "Model Score": "22.0/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 2.2,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN Grade (primary)",
+        "base_score": 22.0,
+        "components": {
+          "ESPN Grade": "2.2/10",
+          "Big Board Rank": "#65"
+        }
+      },
+      "notes": "Model score: 22.0/100 (ESPN Scouting Grade)."
+    },
+    {
+      "player_id": "amari-allen",
+      "name": "Amari Allen",
+      "position": "PF",
+      "college": "Alabama",
+      "college_logo_url": null,
+      "bio": {},
+      "injury_history": [],
+      "stat_views": [
+        {
+          "view_name": "Projection",
+          "season": "2026",
+          "stats": {
+            "ESPN Grade": "3.2/10",
+            "Big Board Rank": "#55",
+            "Mock Consensus": "#55 avg (1 src)",
+            "Model Score": "21.4/100"
+          }
+        }
+      ],
+      "media_links": [],
+      "tweets": [],
+      "grade": 3.2,
+      "grade_breakdown": {
+        "grade_source": "ESPN Scouting Grade",
+        "formula": "ESPN 55% + Mock Consensus 45%",
+        "base_score": 21.4,
+        "components": {
+          "ESPN Grade": "3.2/10",
+          "Big Board Rank": "#55",
+          "Mock Consensus (1 src)": "#55 avg"
+        }
+      },
+      "notes": "Mock consensus avg pick: 55.0 (1 source(s)). Model score: 21.4/100 (ESPN Scouting Grade)."
+    }
+  ]
+}
