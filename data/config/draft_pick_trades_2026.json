@@ -1,0 +1,204 @@
+{
+  "season": 2026,
+  "description": "All known 2026 NBA Draft pick trade obligations as of March 17, 2026. Sources: Hoops Rumors, Tankathon, ESPN, NBA.com.",
+  "first_round": {
+    "simple_transfers": [
+      {
+        "id": "lac-to-okc",
+        "from_team": "lac",
+        "to_team": "okc",
+        "notes": "LAC 2026 unprotected first-round pick owed to OKC (Paul George trade, 2019)"
+      },
+      {
+        "id": "orl-to-mem",
+        "from_team": "orl",
+        "to_team": "mem",
+        "notes": "ORL 2026 first-round pick owed to MEM (Desmond Bane trade chain)"
+      },
+      {
+        "id": "phx-to-cha",
+        "from_team": "phx",
+        "to_team": "cha",
+        "notes": "PHX 2026 first-round pick rights conveyed to CHA via Nurkic trade chain (Feb 2026); MEM holds swap rights but own pick is better"
+      }
+    ],
+    "protected_transfers": [
+      {
+        "id": "phi-to-okc",
+        "from_team": "phi",
+        "to_team": "okc",
+        "via": [],
+        "protection_type": "top",
+        "protection_threshold": 4,
+        "notes": "PHI 2026 first top-4 protected to OKC; if protected PHI owes OKC 2027 first (also top-4 protected)"
+      },
+      {
+        "id": "hou-to-phi-via-okc",
+        "from_team": "hou",
+        "to_team": "phi",
+        "via": ["okc"],
+        "protection_type": "top",
+        "protection_threshold": 4,
+        "notes": "HOU 2026 first top-4 protected was owed to OKC; OKC then traded obligation to PHI for Jared McCain (2026 trade deadline)"
+      },
+      {
+        "id": "uta-to-okc",
+        "from_team": "uta",
+        "to_team": "okc",
+        "via": [],
+        "protection_type": "top",
+        "protection_threshold": 8,
+        "notes": "UTA 2026 first top-8 protected to OKC; if protected the obligation is extinguished"
+      },
+      {
+        "id": "por-to-chi",
+        "from_team": "por",
+        "to_team": "chi",
+        "via": [],
+        "protection_type": "top",
+        "protection_threshold": 14,
+        "notes": "POR 2026 first top-14 protected to CHI; if protected POR owes CHI their 2027 first (also top-14 protected)"
+      },
+      {
+        "id": "was-to-nyk",
+        "from_team": "was",
+        "to_team": "nyk",
+        "via": [],
+        "protection_type": "top",
+        "protection_threshold": 8,
+        "notes": "WAS 2026 first top-8 protected to NYK; if protected, WAS sends NYK 2026 and 2027 second-round picks instead"
+      }
+    ],
+    "range_only_transfers": [
+      {
+        "id": "ind-to-lac",
+        "from_team": "ind",
+        "to_team": "lac",
+        "conveys_if_slot_min": 5,
+        "conveys_if_slot_max": 9,
+        "notes": "IND 2026 first only conveys to LAC if pick slots 5-9 (Ivica Zubac trade, Feb 2026); stays with IND outside that range. Fallback: IND owes LAC 2031 unprotected first"
+      }
+    ],
+    "swap_groups": [
+      {
+        "id": "sas-atl-cle",
+        "priority_order": ["sas", "atl", "cle"],
+        "base_teams": ["sas", "atl", "cle"],
+        "notes": "SAS/ATL/CLE 3-way: SAS gets best pick (SAS has swap rights on ATL from DeJounte Murray trade); ATL gets middle (ATL has swap rights on CLE from De'Andre Hunter trade); CLE gets worst"
+      },
+      {
+        "id": "uta-det-min",
+        "priority_order": ["uta", "det", "min"],
+        "base_teams": ["uta", "det", "min"],
+        "notes": "UTA/DET/MIN 3-way: UTA gets best pick; DET gets 2nd most favorable (Pistons receive second-most favorable); MIN gets worst (Timberwolves get least favorable)"
+      }
+    ],
+    "best_of_groups": [
+      {
+        "id": "hawks-superfirst",
+        "source_teams": ["nop", "mil"],
+        "distribution": [
+          {"rank": 1, "to_team": "atl"},
+          {"rank": 2, "to_team": "mil"}
+        ],
+        "notes": "ATL receives more favorable of NOP and MIL first-round picks (2025 draft night deal; Derik Queen trade); MIL receives the less favorable one"
+      }
+    ]
+  },
+  "second_round": {
+    "simple_transfers": [
+      {
+        "id": "ind-r2-to-mem",
+        "from_team": "ind",
+        "to_team": "mem",
+        "notes": "IND 2026 second-round pick to MEM"
+      },
+      {
+        "id": "chi-r2-to-hou",
+        "from_team": "chi",
+        "to_team": "hou",
+        "notes": "CHI 2026 second-round pick to HOU"
+      },
+      {
+        "id": "lac-r2-to-bkn",
+        "from_team": "lac",
+        "to_team": "bkn",
+        "notes": "LAC 2026 second-round pick to BKN (complex chain via Nets/Nuggets/Grizzlies)"
+      },
+      {
+        "id": "phx-r2-to-dal",
+        "from_team": "phx",
+        "to_team": "dal",
+        "notes": "PHX 2026 second-round pick to DAL"
+      },
+      {
+        "id": "cle-r2-to-lac",
+        "from_team": "cle",
+        "to_team": "lac",
+        "notes": "CLE 2026 second-round pick to LAC (acquired in James Harden trade)"
+      },
+      {
+        "id": "lal-r2-to-gsw",
+        "from_team": "lal",
+        "to_team": "gsw",
+        "notes": "LAL 2026 second-round pick to GSW"
+      },
+      {
+        "id": "bos-r2-to-atl",
+        "from_team": "bos",
+        "to_team": "atl",
+        "notes": "BOS 2026 second-round pick to ATL (acquired in Kristaps Porzingis trade, 2025 offseason)"
+      },
+      {
+        "id": "det-r2-to-nop",
+        "from_team": "det",
+        "to_team": "nop",
+        "notes": "DET 2026 second-round pick to NOP"
+      }
+    ],
+    "protected_transfers": [
+      {
+        "id": "was-r2-to-nyk-conditional",
+        "from_team": "was",
+        "to_team": "nyk",
+        "via": [],
+        "protection_type": "r1_protected",
+        "protection_threshold": 8,
+        "condition_team": "was",
+        "notes": "WAS 2026 second-round to NYK ONLY IF WAS first-round pick is top-8 protected (i.e., WAS keeps their first-rounder). WAS is currently slot 2 so this condition is met."
+      },
+      {
+        "id": "uta-r2-to-sas",
+        "from_team": "uta",
+        "to_team": "sas",
+        "via": [],
+        "protection_type": "r2_bottom",
+        "protection_threshold": 4,
+        "notes": "UTA 2026 second-round to SAS if pick lands slots 5-30 (picks 35-60); if pick is slots 1-4 (picks 31-34) the obligation is extinguished"
+      }
+    ],
+    "range_only_transfers": [],
+    "swap_groups": [],
+    "best_of_groups": [
+      {
+        "id": "bos-best-of-det-mil-orl",
+        "source_teams": ["det", "mil", "orl"],
+        "distribution": [
+          {"rank": 1, "to_team": "bos"},
+          {"rank": 2, "to_team": "orl"},
+          {"rank": 3, "to_team": "nop"}
+        ],
+        "notes": "Celtics get most favorable of DET/MIL/ORL second-round picks; ORL gets 2nd most favorable; NOP gets least favorable"
+      },
+      {
+        "id": "mia-best-of-den-gsw",
+        "source_teams": ["den", "gsw"],
+        "distribution": [
+          {"rank": 1, "to_team": "mia"},
+          {"rank": 2, "to_team": "den"}
+        ],
+        "notes": "MIA receives most favorable of DEN and GSW second-round picks; DEN receives the less favorable one"
+      }
+    ]
+  }
+}

@@ -20,6 +20,8 @@ from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 
 from app import data_loader
+from app.analytics.season_simulator import load_current_records
+from app.api.predictions import get_simulated_standings
 from app.models_core import EnrichedPick, Team
 
 _DATA_DIR = Path(__file__).parent.parent / "data"
@@ -102,6 +104,15 @@ async def index(request: Request) -> HTMLResponse:
             pos = ep.player.position
             team_filled.setdefault(team, {}).setdefault(pos, ep.player.name)
 
+    simulated = get_simulated_standings()
+    if simulated is not None:
+        team_records: dict[str, str] = {abbr: f"{w}-{l}" for abbr, (w, l) in simulated.items()}
+        records_simulated = True
+    else:
+        current = load_current_records()
+        team_records = {abbr: f"{w}-{l}" for abbr, (w, l) in current.items()}
+        records_simulated = False
+
     return templates.TemplateResponse(
         request,
         "index.html",
@@ -112,6 +123,8 @@ async def index(request: Request) -> HTMLResponse:
             "last_updated": last_updated,
             "pick_team_histories": pick_team_histories,
             "college_logos": _load_college_logos(),
+            "team_records": team_records,
+            "records_simulated": records_simulated,
         },
     )
 

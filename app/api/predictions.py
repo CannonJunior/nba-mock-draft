@@ -28,6 +28,22 @@ _last_run: dict = {
     "duration_ms": 0,
 }
 
+# Simulated final records from the most recent season simulation.
+# None until simulate_season is called; resets to None on server restart
+# so the page always shows current config records on startup.
+_simulated_standings: Optional[dict[str, tuple[int, int]]] = None
+
+
+def get_simulated_standings() -> Optional[dict[str, tuple[int, int]]]:
+    """
+    Return simulated final team records from the most recent season simulation.
+
+    Returns:
+        dict mapping team abbreviation to (wins, losses), or None if no
+        season simulation has been run in this server process.
+    """
+    return _simulated_standings
+
 
 class RunResponse(BaseModel):
     """
@@ -59,6 +75,29 @@ class StatusResponse(BaseModel):
     last_run: Optional[str]
     picks_assigned: int
     players_in_pool: int
+
+
+class SimulateSeasonResponse(BaseModel):
+    """
+    Response model for POST /api/predictions/simulate-season.
+
+    Attributes:
+        picks_assigned (int): Number of picks assigned after full pipeline.
+        players_created (int): Number of player records written.
+        duration_ms (int): Wall-clock time of the full operation.
+        lottery_order (list[str]): 14 lottery team abbreviations in pick order.
+        full_draft_order (list[str]): All 30 teams in round-1 pick order.
+        simulation_summary (dict): Final records and lottery details.
+        errors (list[str]): Any non-fatal errors encountered.
+    """
+
+    picks_assigned: int
+    players_created: int
+    duration_ms: int
+    lottery_order: list[str]
+    full_draft_order: list[str]
+    simulation_summary: dict
+    errors: list[str]
 
 
 @predictions_router.post("/run", response_model=RunResponse)
@@ -135,6 +174,108 @@ async def run_predictions() -> RunResponse:
         picks_assigned=picks_assigned,
         players_created=players_created,
         duration_ms=duration_ms,
+        errors=errors,
+    )
+
+
+@predictions_router.post("/simulate-season", response_model=SimulateSeasonResponse)
+async def simulate_season() -> SimulateSeasonResponse:
+    """
+    Simulate the rest of the 2025-26 NBA season, run the draft lottery,
+    then run the full player-selection draft simulation.
+
+    Steps:
+    1. Simulate remaining regular-season games → final win-loss records.
+    2. Identify 14 lottery teams (worst records) and run weighted lottery.
+    3. Assign all 30 first-round (and round-2) pick slots in picks.json.
+    4. Build player pool and run the sequential draft simulation.
+    5. Write updated players.json and picks.json.
+
+    Returns:
+        SimulateSeasonResponse: Counts, timing, lottery order, and summary.
+
+    Raises:
+        HTTPException 500: If any step of the pipeline fails.
+    """
+    start_ts = time.perf_counter()
+    errors: list[str] = []
+
+    # --- Phase 1: Season simulation + lottery ---
+    try:
+        from app.analytics.season_simulator import (
+            simulate_season_and_lottery,
+            apply_draft_order_to_picks,
+            build_simulation_summary,
+        )
+
+        sim_result = simulate_season_and_lottery()
+        apply_draft_order_to_picks(sim_result)
+        summary = build_simulation_summary(sim_result)
+
+        # Store final records in-memory so the page shows them after reload.
+        global _simulated_standings
+        _simulated_standings = {
+            abbr: (rec.wins, rec.losses)
+            for abbr, rec in sim_result.final_records.items()
+        }
+    except Exception as exc:
+        logger.error("Season simulation failed: %s", exc)
+        raise HTTPException(status_code=500, detail=f"Season simulation failed: {exc}")
+
+    # --- Phase 2: Build player pool ---
+    try:
+        from app.analytics.player_pool import build_player_pool
+        from app.analytics.position_value import invalidate_cache as _invalidate_pv
+
+        _invalidate_pv()
+        pool = build_player_pool()
+        players_in_pool = len(pool)
+    except Exception as exc:
+        logger.error("Failed to build player pool: %s", exc)
+        raise HTTPException(status_code=500, detail=f"Player pool build failed: {exc}")
+
+    # --- Phase 3: Simulate + write ---
+    try:
+        from app.analytics.simulator import simulate_and_write
+
+        picks_assigned, players_created = simulate_and_write(player_pool=pool)
+    except Exception as exc:
+        logger.error("Draft simulation failed: %s", exc)
+        raise HTTPException(status_code=500, detail=f"Draft simulation failed: {exc}")
+
+    # --- Phase 4: Clear data_loader cache ---
+    try:
+        from app import data_loader
+
+        data_loader.clear_cache()
+    except Exception as exc:
+        logger.warning("Cache clear failed (non-fatal): %s", exc)
+
+    duration_ms = int((time.perf_counter() - start_ts) * 1000)
+
+    _last_run.update(
+        {
+            "last_run": datetime.now(timezone.utc).isoformat(),
+            "picks_assigned": picks_assigned,
+            "players_in_pool": players_in_pool,
+            "duration_ms": duration_ms,
+        }
+    )
+
+    logger.info(
+        "Season simulation complete: lottery top-4=%s, %d picks assigned, %dms",
+        sim_result.lottery_order[:4],
+        picks_assigned,
+        duration_ms,
+    )
+
+    return SimulateSeasonResponse(
+        picks_assigned=picks_assigned,
+        players_created=players_created,
+        duration_ms=duration_ms,
+        lottery_order=sim_result.lottery_order,
+        full_draft_order=sim_result.full_draft_order,
+        simulation_summary=summary,
         errors=errors,
     )
 

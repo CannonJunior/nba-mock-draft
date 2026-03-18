@@ -38,6 +38,15 @@
         </span>
         {% endif %}
         <button
+          class="predictions-btn simulate-season-btn"
+          id="simulate-season-btn"
+          onclick="simulateSeason()"
+          title="Simulate the rest of the 2025-26 NBA season, run the draft lottery, and assign players"
+        >
+          <span class="predictions-btn-icon" id="simulate-season-btn-icon">🏀</span>
+          <span id="simulate-season-btn-label">Simulate Season</span>
+        </button>
+        <button
           class="predictions-btn"
           id="predictions-btn"
           onclick="runPredictions()"
@@ -162,6 +171,9 @@
 
                     {% if pick.is_lottery %}
                     <span class="lottery-badge">LOTTERY</span>
+                    {% endif %}
+                    {% if round_num == 1 and team_records.get(team.abbreviation) %}
+                    <span class="team-record{% if records_simulated %} team-record-simulated{% endif %}" title="{% if records_simulated %}Final simulated record{% else %}Current record{% endif %}">{{ team_records[team.abbreviation] }}</span>
                     {% endif %}
                   </div>
                 </div>

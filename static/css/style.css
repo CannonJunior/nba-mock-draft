@@ -873,6 +873,28 @@ img {
 .predictions-btn.error { border-color: var(--red); color: var(--red); }
 .predictions-btn-icon { font-size: 0.9rem; line-height: 1; }
 
+.simulate-season-btn {
+  border-color: #3fb950;
+  color: #3fb950;
+}
+.simulate-season-btn:hover:not(:disabled) {
+  background: #3fb950;
+  color: #fff;
+}
+.simulate-season-btn.loading { border-color: var(--text-secondary); color: var(--text-secondary); }
+
+.team-record {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  letter-spacing: 0.03em;
+  margin-top: 2px;
+}
+.team-record-simulated {
+  color: #3fb950;
+}
+
 /* ---------- Scrollbar ---------- */
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: var(--bg-primary); }

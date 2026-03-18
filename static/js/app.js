@@ -330,12 +330,15 @@ function formatHeight(totalInches) {
 // ============================================================
 
 /**
- * Call the predictions API, record refresh timestamp, and reload the page.
+ * Simulate the rest of the 2025-26 NBA season, run the draft lottery,
+ * and then run the player-selection draft simulation.
+ * Shows a multi-stage progress label and reloads the page on success.
  */
-async function runPredictions() {
-  const btn = document.getElementById("predictions-btn");
-  const icon = document.getElementById("predictions-btn-icon");
-  const label = document.getElementById("predictions-btn-label");
+async function simulateSeason() {
+  const btn = document.getElementById("simulate-season-btn");
+  const icon = document.getElementById("simulate-season-btn-icon");
+  const label = document.getElementById("simulate-season-btn-label");
+  const refreshBtn = document.getElementById("predictions-btn");
 
   if (!btn) return;
 
@@ -343,6 +346,58 @@ async function runPredictions() {
 
   btn.disabled = true;
   btn.classList.add("loading");
+  if (refreshBtn) refreshBtn.disabled = true;
+  if (icon) icon.textContent = "⏳";
+  if (label) label.textContent = "Simulating season…";
+
+  try {
+    const res = await fetch("/api/predictions/simulate-season", { method: "POST" });
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({ detail: "Unknown error" }));
+      throw new Error(err.detail || `HTTP ${res.status}`);
+    }
+    const data = await res.json();
+
+    if (icon) icon.textContent = "✓";
+    const top4 = (data.lottery_order || []).slice(0, 4).join(", ").toUpperCase();
+    if (label) label.textContent = `Done — Lottery: ${top4}`;
+
+    localStorage.setItem("nbaMockLastRefresh", refreshTs);
+    localStorage.removeItem("nbaMockSeenPicks");
+
+    setTimeout(() => window.location.reload(), 1200);
+  } catch (err) {
+    btn.disabled = false;
+    btn.classList.remove("loading");
+    btn.classList.add("error");
+    if (refreshBtn) refreshBtn.disabled = false;
+    if (icon) icon.textContent = "✗";
+    if (label) label.textContent = "Error — retry";
+    console.error("Season simulation failed:", err);
+    setTimeout(() => {
+      btn.classList.remove("error");
+      if (icon) icon.textContent = "🏀";
+      if (label) label.textContent = "Simulate Season";
+    }, 3000);
+  }
+}
+
+/**
+ * Call the predictions API, record refresh timestamp, and reload the page.
+ */
+async function runPredictions() {
+  const btn = document.getElementById("predictions-btn");
+  const icon = document.getElementById("predictions-btn-icon");
+  const label = document.getElementById("predictions-btn-label");
+  const simBtn = document.getElementById("simulate-season-btn");
+
+  if (!btn) return;
+
+  const refreshTs = new Date().toISOString();
+
+  btn.disabled = true;
+  btn.classList.add("loading");
+  if (simBtn) simBtn.disabled = true;
   if (icon) icon.textContent = "⏳";
   if (label) label.textContent = "Running…";
 
@@ -364,6 +419,7 @@ async function runPredictions() {
     btn.disabled = false;
     btn.classList.remove("loading");
     btn.classList.add("error");
+    if (simBtn) simBtn.disabled = false;
     if (icon) icon.textContent = "✗";
     if (label) label.textContent = "Error — retry";
     console.error("Predictions run failed:", err);
